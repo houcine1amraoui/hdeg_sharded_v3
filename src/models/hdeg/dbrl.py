@@ -25,13 +25,15 @@ class DBRL(nn.Module):
     Input
     -----
     x:
-        Tensor of shape ``(B, W, N)`` where:
+        Tensor of shape ``(B, W, N)`` in scalar mode (input_dim=1),
+        or ``(B, W, N, 6)`` in input-state mode (input_dim=6), where:
 
         B = batch size
         W = temporal window length
         N = number of devices
 
-        Each device contributes one scalar feature at every time step.
+        Six-feature order: value, valid, unknown, unavailable, missing, invalid.
+        The default scalar mode retains the existing parameter shapes.
 
     Output
     ------
@@ -59,6 +61,8 @@ class DBRL(nn.Module):
         graph_symmetric: bool = False,
         graph_heads: int = 1,
         graph_dropout: float = 0.0,
+        *,
+        input_dim: int = 1,
     ) -> None:
         super().__init__()
 
@@ -74,6 +78,10 @@ class DBRL(nn.Module):
             graph_dropout=graph_dropout,
         )
 
+        if type(input_dim) is not int or input_dim not in (1, 6):
+            raise ValueError("input_dim must be exactly 1 (scalar) or 6 (input-state).")
+        self.input_dim = input_dim
+
         self.hidden_dim = hidden_dim
         self.embedding_dim = embedding_dim
         self.gru_layers = gru_layers
@@ -82,12 +90,9 @@ class DBRL(nn.Module):
         # Temporal Behavior Encoder
         # ---------------------------------------------------------
         #
-        # Each device observation is a scalar-valued sequence.
-        # DBRL input has shape (B, W, N), and each device sequence
-        # is transformed into (B*N, W, 1) before entering the GRU.
-        # ---------------------------------------------------------
+        # Shared GRU sees (B*N, W, input_dim); devices remain graph nodes.
         self.temporal_encoder = nn.GRU(
-            input_size=1,
+            input_size=input_dim,
             hidden_size=hidden_dim,
             num_layers=gru_layers,
             batch_first=True,
@@ -198,7 +203,7 @@ class DBRL(nn.Module):
         ----------
         x:
             Input observation tensor with shape
-            ``(B, W, N)``.
+            ``(B, W, N)`` (scalar) or ``(B, W, N, 6)`` (input-state).
 
         Returns
         -------
@@ -207,35 +212,12 @@ class DBRL(nn.Module):
             ``(B, N, embedding_dim)``.
         """
 
-        batch_size, window_size, num_devices = x.shape
-
-        # ---------------------------------------------------------
-        # (B, W, N)
-        #     ↓
-        # (B, N, W)
-        #
-        # Each device now owns one temporal sequence.
-        # ---------------------------------------------------------
-        x = x.permute(0, 2, 1)
-
-        # ---------------------------------------------------------
-        # (B, N, W)
-        #     ↓
-        # (B*N, W)
-        # ---------------------------------------------------------
-        x = x.reshape(
-            batch_size * num_devices,
-            window_size,
+        if x.ndim == 3:
+            x = x.unsqueeze(-1)
+        batch_size, window_size, num_devices, features = x.shape
+        x = x.permute(0, 2, 1, 3).reshape(
+            batch_size * num_devices, window_size, features
         )
-
-        # ---------------------------------------------------------
-        # GRU input:
-        #
-        # (B*N, W)
-        #     ↓
-        # (B*N, W, 1)
-        # ---------------------------------------------------------
-        x = x.unsqueeze(-1)
 
         # ---------------------------------------------------------
         # Shared temporal encoder
@@ -276,8 +258,8 @@ class DBRL(nn.Module):
 
         return embeddings
 
-    @staticmethod
     def _validate_input(
+        self,
         x: Tensor,
     ) -> None:
         """
@@ -289,14 +271,12 @@ class DBRL(nn.Module):
                 "DBRL input must be a torch.Tensor."
             )
 
-        if x.ndim != 3:
-            raise ValueError(
-                "DBRL expects input with shape "
-                "(batch_size, window_size, num_devices). "
-                f"Received shape {tuple(x.shape)}."
-            )
+        expected_ndim = 3 if self.input_dim == 1 else 4
+        if x.ndim != expected_ndim or (x.ndim == 4 and x.shape[-1] != 6):
+            contract = "(B, W, N)" if self.input_dim == 1 else "(B, W, N, 6)"
+            raise ValueError(f"DBRL input_dim={self.input_dim} expects {contract}; received {tuple(x.shape)}.")
 
-        batch_size, window_size, num_devices = x.shape
+        batch_size, window_size, num_devices = x.shape[:3]
 
         if batch_size <= 0:
             raise ValueError(
@@ -323,6 +303,20 @@ class DBRL(nn.Module):
                 "DBRL input contains NaN or infinite values."
             )
 
+    def _load_from_state_dict(self, state_dict, prefix, local_metadata, strict,
+                              missing_keys, unexpected_keys, error_msgs):
+        key = prefix + "temporal_encoder.weight_ih_l0"
+        weight = state_dict.get(key)
+        if weight is not None and (weight.ndim != 2 or weight.shape[1] != self.input_dim):
+            raise RuntimeError(
+                f"Incompatible DBRL checkpoint at {key}: input_dim={self.input_dim}, "
+                f"checkpoint weight shape={tuple(weight.shape)}. Scalar and six-feature "
+                "checkpoints cannot be interchanged, including with strict=False. "
+                "Use a fresh initialization for the revised input condition."
+            )
+        super()._load_from_state_dict(state_dict, prefix, local_metadata, strict,
+                                     missing_keys, unexpected_keys, error_msgs)
+
     def forward(
         self,
         x: Tensor,
@@ -334,7 +328,7 @@ class DBRL(nn.Module):
         ----------
         x:
             Observation window with shape
-            ``(B, W, N)``.
+            ``(B, W, N)`` (scalar) or ``(B, W, N, 6)`` (input-state).
 
         Returns
         -------
