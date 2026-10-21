@@ -1,0 +1,53 @@
+# Query: config["dataset"]
+# ContextLines: 1
+
+14 results - 4 files
+
+src\evaluation\compute_scores.py:
+  16      project_root_dir = config["project_root_dir"]
+  17:     dataset_name = config["preprocessing"]["dataset_name"]
+  18      eval_results_folder = f"{project_root_dir}/eval_results/{dataset_name}"
+
+src\preprocessing\preprocessing.py:
+    9  def filter_columns_one_data(df, config):
+   10:     dataset_name = config["preprocessing"]["dataset_name"]
+   11      filtered_columns_path = f"configs/{dataset_name}_filtered_columns.txt"
+
+  206      data_path = get_dataset_path(config)
+  207:     dataset_name = config["preprocessing"]["dataset_name"]
+  208      
+
+  215      project_root_dir = config["project_root_dir"]
+  216:     dataset_folder = config["preprocessing"]["dataset_folder"]
+  217  
+
+src\utils\create_folders_utils.py:
+   8      project_root_dir = config["project_root_dir"]
+   9:     dataset_folder = config["preprocessing"]["dataset_folder"]
+  10      
+
+  38      project_root_dir = config["project_root_dir"]
+  39:     dataset_name = config["preprocessing"]["dataset_name"]
+  40:     merge_bre_cu = config["preprocessing"]["merge_bre_cu"]
+  41      model_name = config["training"]["model"]
+
+  54      project_root_dir = config["project_root_dir"]
+  55:     dataset_name = config["preprocessing"]["dataset_name"]
+  56      model_name = config["evaluation"]["model"]
+  57:     merge_bre_cu = config["preprocessing"]["merge_bre_cu"]
+  58  
+
+src\utils\get_folders_utils.py:
+   4      project_root_dir = config["project_root_dir"]
+   5:     dataset_name = config["preprocessing"]["dataset_name"]
+   6:     dataset_folder = config["preprocessing"]["dataset_folder"]
+   7      data_path = f"{project_root_dir}/{dataset_folder}/{dataset_name}Master.csv"
+
+  15  def get_dataset_name(config):
+  16:     merge_bre_cu = config["preprocessing"]["merge_bre_cu"]
+  17:     dataset_name = config["preprocessing"]["dataset_name"]
+  18  
+
+  26      project_root_dir = config["project_root_dir"]
+  27:     dataset_folder = config["preprocessing"]["dataset_folder"]
+  28      

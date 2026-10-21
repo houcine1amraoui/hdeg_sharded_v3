@@ -1,0 +1,93 @@
+# change the project root directory if using colab
+# e.g., "/content/drive/MyDrive/gnn"
+project_root_dir: .
+
+seed: 42
+
+preprocessing:
+  dataset_folder: data
+  merge_bre_cu: false # true or false
+  dataset_name: CU # CU or BRE
+  apply_filtering: true
+  apply_cleaning: true # should be true for CU because it has NaN column
+  downsample_freq: 1s
+  val_ratio: 0.1
+  window_size: 30
+  window_shard_size: 8192
+  actors_timelines:
+    actor1_t1_start: "2022-10-18 00:00:00"
+    actor1_t1_end: "2022-11-07 23:59:59"
+    actor2_start: "2022-11-08 00:00:00"
+    actor2_end: "2022-11-10 23:59:59"
+    actor1_t2_start: "2022-11-11 00:00:00"
+    actor1_t2_end: "2022-11-17 23:59:59"
+
+models:
+  - name: "gdn"
+    enabled: true
+    params:
+      hidden_dim: 64
+      topk: 15 # previously 15
+      heads: 1
+
+  - name: "mtad_gat"
+    enabled: true
+    params:
+      kernel_size: 5
+      gru_hidden_dim: 100 # 100 prev
+      gat_heads: 2 # 2 prev
+
+hdeg:
+  dbrl:
+    batch_size: 32
+    hidden_dim: 64
+    embedding_dim: 64
+    gru_layers: 1
+    graph_top_k: 15
+    graph_self_loops: True
+    graph_symmetric: True
+    graph_heads: 1
+    max_batches: null
+    max_shards: null
+    overwrite: True
+
+  bse:
+    batch_size: 32
+    num_heads: 1
+    max_shards: null
+    overwrite: True
+
+  bil:
+    batch_size: 32
+    num_heads: 1
+    max_shards: null
+    overwrite: True
+
+  ebrl:
+    batch_size: 32
+    max_shards: null
+    overwrite: True
+
+  hbf:
+    checkpoint: "epoch_0001.pt"
+    batch_size: 32
+    dynamics_hidden_dim: 128
+    max_shards: null
+    overwrite: True
+
+  mbai:
+    batch_size: 32
+    max_shards: null
+    overwrite: True
+    fusion_weights: null
+
+  e2e_training:
+    epochs: 2
+    lr: 0.0001
+
+v1_validation:
+  r2-pairs: 100000
+  r3-max: 50000
+  r1-reservoir: 100000
+  r1-chunk: 512
+  bootstrap-replicates: 1000

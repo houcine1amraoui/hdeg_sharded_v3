@@ -1,0 +1,165 @@
+schema_version: "1.0"
+artifact_type: "hdeg_behavioral_state_configuration"
+status: "frozen_semantic_configuration"
+
+dataset:
+  name: "CU"
+  selected_device_count: 23
+  device_order_source: "devices.json"
+  device_ordering_rule: "exact_file_order"
+
+semantic_policy:
+  compatibility_relation: "DIRECT"
+  contextual_edges: "none"
+  matrix_semantics: "M[k,i] = 1 iff selected device feature i is semantically compatible with behavioral state k."
+  contextual_edge_policy: "Plausible but indirect or predictive relationships are excluded from the fixed compatibility prior."
+
+behavioral_states:
+  - id: "access_entry"
+    index: 0
+    name: "Access / Entry"
+    confidence: "high"
+    provenance_type: "dataset_semantics"
+    rationale: "Contact features directly represent contact/access events."
+    compatible_devices:
+      - index: 0
+        id: "binary_sensor.smartthings_contact_sensor_pid_004_contact"
+        relation: "DIRECT"
+      - index: 1
+        id: "binary_sensor.smartthings_contact_sensor_pid_006_contact"
+        relation: "DIRECT"
+      - index: 2
+        id: "binary_sensor.smartthings_contact_sensor_pid_003_contact"
+        relation: "DIRECT"
+      - index: 3
+        id: "binary_sensor.xiaomi_contact_sensor_pid_136_contact"
+        relation: "DIRECT"
+  - id: "occupancy_presence"
+    index: 1
+    name: "Occupancy / Presence"
+    confidence: "high"
+    provenance_type: "dataset_semantics_plus_semantic_adjudication"
+    rationale: "Selected features directly represent occupancy/motion; contact-to-occupancy contextual edges were rejected."
+    compatible_devices:
+      - index: 4
+        id: "binary_sensor.xiaomi_motion_sensor_kitchen_occupancy"
+        relation: "DIRECT"
+      - index: 5
+        id: "binary_sensor.xiaomi_motion_sensor_workarea_occupancy"
+        relation: "DIRECT"
+      - index: 6
+        id: "binary_sensor.aqara_motion_sensor_pid_075_occupancy"
+        relation: "DIRECT"
+      - index: 7
+        id: "binary_sensor.hue_motion_sensor_1_motion"
+        relation: "DIRECT"
+  - id: "physical_disturbance"
+    index: 2
+    name: "Physical Disturbance"
+    confidence: "high"
+    provenance_type: "dataset_semantics"
+    rationale: "Selected features directly represent vibration events."
+    compatible_devices:
+      - index: 8
+        id: "binary_sensor.aqara_vibration_sensor_pid_077_vibration"
+        relation: "DIRECT"
+      - index: 9
+        id: "binary_sensor.vibration_sensor_pid_078_vibration"
+        relation: "DIRECT"
+      - index: 10
+        id: "binary_sensor.aqara_vibration_sensor_pid_079_vibration"
+        relation: "DIRECT"
+  - id: "thermal_environment"
+    index: 3
+    name: "Thermal Environment"
+    confidence: "high"
+    provenance_type: "dataset_semantics"
+    rationale: "Selected features are the temperature channels retained in the 23-feature representation."
+    compatible_devices:
+      - index: 11
+        id: "sensor.aqara_temperature_and_humidity_pid_071_temperature"
+        relation: "DIRECT"
+      - index: 12
+        id: "sensor.aqara_temperature_and_humidity_pid_072_temperature"
+        relation: "DIRECT"
+      - index: 13
+        id: "sensor.aqara_temperature_and_humidity_pid_073_temperature"
+        relation: "DIRECT"
+      - index: 14
+        id: "sensor.aqara_temperature_and_humidity_pid_074_temperature"
+        relation: "DIRECT"
+  - id: "switch_controlled_appliance_activity"
+    index: 4
+    name: "Switch-Controlled Appliance Activity"
+    confidence: "high"
+    provenance_type: "dataset_semantics_plus_semantic_adjudication"
+    rationale: "Selected features directly represent the Kasa switch states."
+    compatible_devices:
+      - index: 15
+        id: "switch.kasa_017"
+        relation: "DIRECT"
+      - index: 16
+        id: "switch.kasa_020"
+        relation: "DIRECT"
+      - index: 17
+        id: "switch.kasa_023"
+        relation: "DIRECT"
+  - id: "lighting_activity"
+    index: 5
+    name: "Lighting Activity"
+    confidence: "high"
+    provenance_type: "dataset_semantics_plus_semantic_adjudication"
+    rationale: "Selected features directly represent the two retained lighting entities; motion-to-lighting was rejected as merely contextual/predictive."
+    compatible_devices:
+      - index: 18
+        id: "light.hue_light_bulb_pid_040"
+        relation: "DIRECT"
+      - index: 19
+        id: "light.053_lumiman_smart_bulb_2"
+        relation: "DIRECT"
+  - id: "air_quality"
+    index: 6
+    name: "Air Quality"
+    confidence: "high"
+    provenance_type: "dataset_semantics"
+    rationale: "Selected feature directly measures PM2.5."
+    compatible_devices:
+      - index: 20
+        id: "sensor.mi_air_purifier_3_3h_pm2_5"
+        relation: "DIRECT"
+  - id: "water_heating"
+    index: 7
+    name: "Water Heating"
+    confidence: "high"
+    provenance_type: "dataset_semantics_plus_semantic_adjudication"
+    rationale: "Selected feature directly represents kettle start/activation."
+    compatible_devices:
+      - index: 21
+        id: "switch.kettle_start"
+        relation: "DIRECT"
+  - id: "humidification"
+    index: 8
+    name: "Humidification"
+    confidence: "high"
+    provenance_type: "dataset_semantics"
+    rationale: "Selected feature represents the retained humidifier entity/state; unselected humidity/temperature features are excluded."
+    compatible_devices:
+      - index: 22
+        id: "humidifier.mi_smart_antibacterial_humidifier"
+        relation: "DIRECT"
+
+matrix:
+  shape: [9, 23]
+  dtype: "uint8"
+  storage: "compatibility_matrix.npy"
+  csv_storage: "compatibility_matrix.csv"
+  rows:
+    - [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    - [0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    - [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+    - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0]
+    - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+    - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+    - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+    - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]

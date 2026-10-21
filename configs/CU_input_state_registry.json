@@ -1,0 +1,199 @@
+{
+  "policy_version": "cu_input_state_v1",
+  "dataset_name": "CU",
+  "status_order": [
+    "valid",
+    "unknown",
+    "unavailable",
+    "missing",
+    "invalid"
+  ],
+  "state_codes": {
+    "unknown": -9.7,
+    "unavailable": -9.21
+  },
+  "missing_tokens": [
+    "",
+    "NaN",
+    "nan",
+    "NA",
+    "N/A",
+    "null",
+    "NULL"
+  ],
+  "other_documented_state_codes": [
+    -9.89,
+    -9.88,
+    -9.87,
+    -9.86,
+    -9.85,
+    -9.84,
+    -9.83,
+    -9.82,
+    -9.81,
+    -9.8,
+    -9.79,
+    -9.78,
+    -9.77,
+    -9.76,
+    -9.75,
+    -9.74,
+    -9.73,
+    -9.72,
+    -9.71,
+    -9.69,
+    -9.68,
+    -9.67,
+    -9.66,
+    -9.65,
+    -9.64,
+    -9.63,
+    -9.62,
+    -9.61,
+    -9.6,
+    -9.59,
+    -9.58,
+    -9.57,
+    -9.56,
+    -9.55,
+    -9.54,
+    -9.53,
+    -9.52,
+    -9.51,
+    -9.5,
+    -9.49,
+    -9.48,
+    -9.47,
+    -9.46,
+    -9.45,
+    -9.44,
+    -9.43,
+    -9.42,
+    -9.41,
+    -9.4,
+    -9.39,
+    -9.38,
+    -9.37,
+    -9.36,
+    -9.35,
+    -9.34,
+    -9.33,
+    -9.32,
+    -9.31,
+    -9.3,
+    -9.29,
+    -9.28,
+    -9.27,
+    -9.26,
+    -9.25,
+    -9.24,
+    -9.23,
+    -9.22,
+    -9.2,
+    -9.19,
+    -9.18,
+    -9.17,
+    -9.16,
+    -9.15,
+    -9.14,
+    -9.13,
+    -9.12,
+    -9.11,
+    -9.1
+  ],
+  "state_code_source": "Supplied Misc/CUStatesMap.json; other code matches require semantic review, not automatic replacement.",
+  "channels": [
+    {
+      "name": "binary_sensor.smartthings_contact_sensor_pid_004_contact",
+      "type": "binary"
+    },
+    {
+      "name": "binary_sensor.smartthings_contact_sensor_pid_006_contact",
+      "type": "binary"
+    },
+    {
+      "name": "binary_sensor.smartthings_contact_sensor_pid_003_contact",
+      "type": "binary"
+    },
+    {
+      "name": "binary_sensor.xiaomi_contact_sensor_pid_136_contact",
+      "type": "binary"
+    },
+    {
+      "name": "binary_sensor.xiaomi_motion_sensor_kitchen_occupancy",
+      "type": "binary"
+    },
+    {
+      "name": "binary_sensor.xiaomi_motion_sensor_workarea_occupancy",
+      "type": "binary"
+    },
+    {
+      "name": "binary_sensor.aqara_motion_sensor_pid_075_occupancy",
+      "type": "binary"
+    },
+    {
+      "name": "binary_sensor.hue_motion_sensor_1_motion",
+      "type": "binary"
+    },
+    {
+      "name": "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+      "type": "binary"
+    },
+    {
+      "name": "binary_sensor.vibration_sensor_pid_078_vibration",
+      "type": "binary"
+    },
+    {
+      "name": "binary_sensor.aqara_vibration_sensor_pid_079_vibration",
+      "type": "binary"
+    },
+    {
+      "name": "sensor.aqara_temperature_and_humidity_pid_071_temperature",
+      "type": "continuous"
+    },
+    {
+      "name": "sensor.aqara_temperature_and_humidity_pid_072_temperature",
+      "type": "continuous"
+    },
+    {
+      "name": "sensor.aqara_temperature_and_humidity_pid_073_temperature",
+      "type": "continuous"
+    },
+    {
+      "name": "sensor.aqara_temperature_and_humidity_pid_074_temperature",
+      "type": "continuous"
+    },
+    {
+      "name": "switch.kasa_017",
+      "type": "binary"
+    },
+    {
+      "name": "switch.kasa_020",
+      "type": "binary"
+    },
+    {
+      "name": "switch.kasa_023",
+      "type": "binary"
+    },
+    {
+      "name": "light.hue_light_bulb_pid_040",
+      "type": "binary"
+    },
+    {
+      "name": "light.053_lumiman_smart_bulb_2",
+      "type": "binary"
+    },
+    {
+      "name": "sensor.mi_air_purifier_3_3h_pm2_5",
+      "type": "continuous"
+    },
+    {
+      "name": "switch.kettle_start",
+      "type": "binary"
+    },
+    {
+      "name": "humidifier.mi_smart_antibacterial_humidifier",
+      "type": "binary"
+    }
+  ]
+}
