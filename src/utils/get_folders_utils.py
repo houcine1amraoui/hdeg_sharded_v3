@@ -30,7 +30,7 @@ def get_processed_folder(config):
     dataset_name = get_dataset_name(config)
 
     processed_data_folder = f"{project_root_dir}/{dataset_folder}/processed/{dataset_name}"
-    
+    print(f"[INFO] Processed data folder: {processed_data_folder}")
     path = Path(processed_data_folder)
     if not path.is_dir():
         raise FileNotFoundError(f"[ERROR] Processed data folder does not exist. \
