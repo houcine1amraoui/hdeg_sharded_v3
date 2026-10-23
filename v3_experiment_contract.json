@@ -1,0 +1,92 @@
+{
+  "format": "hdeg_v3_reference_contract_v1",
+  "source_files": {
+    "configs/CU_input_state_registry.json": "6f1b5af775fcaa5f76f48ac35934d479e5f084aa7b2c2de0fb9250bd2cf1b684",
+    "configs/CU_selected_features.txt": "2e1483d066a707f577d280a74862d68e5f6a4ded7a4d1170df2fc164e62c2126",
+    "configs/config.yaml": "cbbc055bfc8106d6fe8cc94fb0dd383b817aad888c02f2fb0e0e3bdb58927d8f",
+    "configs/hdeg/behavioral_states.yaml": "582bad7365d1efc6123a2dda41563a7d66fd21999b249a27a3fdd80755adeae8",
+    "run_v2_frozen_residual_transition.py": "10e63490c428b44e808eee9c50fad7273c434be80ec7622a46328e0fe00cc6d4",
+    "run_v2_input_state_optimization_pilot.py": "b9c70667e310228ff4a2405e35fc485a35fd88d0d151b885a46a47b24e3640f3",
+    "run_v2_transition_coverage.py": "7bdc8f8da7cfa3e2e85efbf77685e06be3e007e1f7a798d08cccfaaee5c0bdd1",
+    "run_v2_transition_diagnostic.py": "636f31edc196e5c612ff82629b530ff9aee4c8d16b044fae192ce00af81695e8",
+    "run_v2_transition_optimization.py": "9bc0d72aff8a6550aa181efc68db765475acc66df311e31427545b2f454460c8",
+    "run_v2_verify_dbrl_inputs.py": "c074162adcff276f9dd9c8aa3874124ca162e09ebde04f805e8b60f5a0cf1c74",
+    "run_v2_verify_hbf_objective.py": "bcb0d4f9130f3e2abeb3dc5cc61f68c08d6f6d7a86d666dd2a5e521b9f91423f",
+    "run_v2_verify_hierarchy_inputs.py": "2d15a954c910c3cfa9341e99afd62b2f79528f8837f8aa5905ca4c2282f7baff",
+    "run_v2_verify_training_windows.py": "962354bf3d102d5e15f5640d4ba8dcbf849c4e55f6a3cdd0222b7fb9ca0a944f",
+    "src/common/graph/graph_builder.py": "f9be1cb0de9e72eaa652e65def4298a3e6a623f4cb8059fc34b52dcb77b9dbab",
+    "src/common/graph/semantics/behavioral_state_config.py": "6a1e7e2f0143040c622148525e5425cdb1494ad01a57c19bff1dcb624fa21f51",
+    "src/data_preparation/input_state_windows.py": "9a1f76319ea12c12127b00bd8b21f4489171d6279c4ca6a25404daa07f69c96d",
+    "src/models/hdeg/bil.py": "25dd9f7afe55b311475d6cbd632493798521ca792b377600413b42fadeeab1ec",
+    "src/models/hdeg/bse.py": "4f98397e12b36608bb39bacd67a82d872675947ee1f3ac0ddfd2cb5707f92c57",
+    "src/models/hdeg/dbrl.py": "d34d9c3735276a47e353c634fc8f210f6935c0ec13d6c8846ad7036c9035dd30",
+    "src/models/hdeg/ebrl.py": "28cb2036a3985f7aca735ad62c596df10556fc486e69ea5cdef2f205d6fab3df",
+    "src/models/hdeg/graph_reasoner.py": "174ec8955424dd4b5cd22310204f37c5c6f3aab64d6bbf2df63109316ca126f1",
+    "src/models/hdeg/hbf.py": "26bd316ceae8658b1e905f7d1316d179a07e2c94de2bd82475f469c46be4cf58",
+    "src/models/hdeg/mo.py": "232fe3f8587ddbf464dd3da17945f8cda370c3e73a0f23f0e280a09e58061138",
+    "src/utils/get_folders_utils.py": "bb3cf357b3fe75d1b81b5a6abaf1ad9d202c208a6fc34f683ef4557d044f026c"
+  },
+  "run_source_links": {
+    "window_loader": "src/data_preparation/input_state_windows.py",
+    "selected_features": "configs/CU_selected_features.txt",
+    "registry": "configs/CU_input_state_registry.json",
+    "semantic_config": "configs/hdeg/behavioral_states.yaml",
+    "semantic_loader": "src/common/graph/semantics/behavioral_state_config.py",
+    "graph_builder": "src/common/graph/graph_builder.py",
+    "graph_reasoner": "src/models/hdeg/graph_reasoner.py",
+    "dbrl": "src/models/hdeg/dbrl.py",
+    "bse": "src/models/hdeg/bse.py",
+    "bil": "src/models/hdeg/bil.py",
+    "ebrl": "src/models/hdeg/ebrl.py",
+    "hbf": "src/models/hdeg/hbf.py",
+    "mo": "src/models/hdeg/mo.py"
+  },
+  "evidence_files": {
+    "evidence/LEVEL2_FORECASTING_EVIDENCE_BOUNDARY.md": "af30c5565893f3c30aeb2accfa45312bd4b4d531fcc5c1ef3ea187e45639d599",
+    "evidence/mean_increment_comparison.json": "ebdc53c6fb46abb1971b8ce411cf47c1fba4ac50dc48ba2469a89bd3aedcb645"
+  },
+  "input_manifest_sha256": "a33175f859178a61292dd49ce3d62f70fbfac604a3c3c292c5a41962bd35c296",
+  "devices": [
+    "binary_sensor.smartthings_contact_sensor_pid_004_contact",
+    "binary_sensor.smartthings_contact_sensor_pid_006_contact",
+    "binary_sensor.smartthings_contact_sensor_pid_003_contact",
+    "binary_sensor.xiaomi_contact_sensor_pid_136_contact",
+    "binary_sensor.xiaomi_motion_sensor_kitchen_occupancy",
+    "binary_sensor.xiaomi_motion_sensor_workarea_occupancy",
+    "binary_sensor.aqara_motion_sensor_pid_075_occupancy",
+    "binary_sensor.hue_motion_sensor_1_motion",
+    "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+    "binary_sensor.vibration_sensor_pid_078_vibration",
+    "binary_sensor.aqara_vibration_sensor_pid_079_vibration",
+    "sensor.aqara_temperature_and_humidity_pid_071_temperature",
+    "sensor.aqara_temperature_and_humidity_pid_072_temperature",
+    "sensor.aqara_temperature_and_humidity_pid_073_temperature",
+    "sensor.aqara_temperature_and_humidity_pid_074_temperature",
+    "switch.kasa_017",
+    "switch.kasa_020",
+    "switch.kasa_023",
+    "light.hue_light_bulb_pid_040",
+    "light.053_lumiman_smart_bulb_2",
+    "sensor.mi_air_purifier_3_3h_pm2_5",
+    "switch.kettle_start",
+    "humidifier.mi_smart_antibacterial_humidifier"
+  ],
+  "status_codes": {
+    "valid": 0,
+    "unknown": 1,
+    "unavailable": 2,
+    "missing": 3,
+    "invalid": 4
+  },
+  "reports": {
+    "comparison": "c65d1ab4839ac95613d271af14fec3a3193d86ab5fcfc4a9cd774ba1e6750718",
+    "residual": "c6c27614544b30ffe2e16a8b0e614cd0e132b84d3189b3a48937f1644eea239e"
+  },
+  "split_sha256": "2a5b91bf255d8b8f3a77918357c009c609eef0f8d0bb5507ed850bd5452eabd5",
+  "initial_tensor_sha256": "6f8b846f2a8137133578cc1965cbb7f8255828eeb41c66dfc122093149c74b81",
+  "preparation_entrypoints": [
+    "run_v2_input_state_preflight.py",
+    "run_v2_prepare_training_inputs.py"
+  ],
+  "source_hash_policy": "LF-normalized SHA256 for text source only; saved scientific artifacts require exact bytes."
+}
