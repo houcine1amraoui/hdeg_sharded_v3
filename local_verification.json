@@ -1,0 +1,9 @@
+{
+  "positive_case": "PASS_WITH_LIMITATIONS",
+  "changed_dbrl_source": "BLOCKED",
+  "missing_initial_checkpoint": "BLOCKED",
+  "model_forwards": 0,
+  "optimizer_steps": 0,
+  "numerical_replay": "NOT_TESTED",
+  "sources_modified": false
+}
