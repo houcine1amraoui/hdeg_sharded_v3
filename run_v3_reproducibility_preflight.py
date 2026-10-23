@@ -64,8 +64,10 @@ def main():
             actual = sha256(path)
             tracked[str(path.resolve())] = actual
             normalized = hashlib.sha256(path.read_bytes().replace(b'\r\n', b'\n')).hexdigest() if text_source else None
-            matched = actual == expected or (text_source and normalized == expected)
-            check(label, matched, dict(expected=expected, actual=actual, lf_normalized=normalized))
+            # Historical reports may hash CRLF while a checkout uses LF (or vice versa).
+            crlf = hashlib.sha256(path.read_bytes().replace(b'\r\n', b'\n').replace(b'\n', b'\r\n')).hexdigest() if text_source else None
+            matched = actual == expected or (text_source and expected in (normalized, crlf))
+            check(label, matched, dict(expected=expected, actual=actual, lf_normalized=normalized, crlf_normalized=crlf))
             if matched and actual != expected:
                 report['warnings'].append('CRLF/LF-only equivalence accepted: ' + label)
         except OSError as exc:
