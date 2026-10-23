@@ -1,0 +1,367 @@
+{
+  "audit_status": "COMPLETE",
+  "primary_gate": "BLOCKED",
+  "model_forwards": 0,
+  "optimizer_steps": 0,
+  "configuration": {
+    "project_root_dir": "/workspace/scratch/b3dba90d7cf0/test_v3_preflight",
+    "seed": 42,
+    "preprocessing": {
+      "dataset_folder": "data",
+      "merge_bre_cu": false,
+      "dataset_name": "CU",
+      "apply_filtering": true,
+      "apply_cleaning": true,
+      "downsample_freq": "1s",
+      "val_ratio": 0.1,
+      "window_size": 30,
+      "window_shard_size": 8192,
+      "actors_timelines": {
+        "actor1_t1_start": "2022-10-18 00:00:00",
+        "actor1_t1_end": "2022-11-07 23:59:59",
+        "actor2_start": "2022-11-08 00:00:00",
+        "actor2_end": "2022-11-10 23:59:59",
+        "actor1_t2_start": "2022-11-11 00:00:00",
+        "actor1_t2_end": "2022-11-17 23:59:59"
+      }
+    },
+    "models": [
+      {
+        "name": "gdn",
+        "enabled": true,
+        "params": {
+          "hidden_dim": 64,
+          "topk": 15,
+          "heads": 1
+        }
+      },
+      {
+        "name": "mtad_gat",
+        "enabled": true,
+        "params": {
+          "kernel_size": 5,
+          "gru_hidden_dim": 100,
+          "gat_heads": 2
+        }
+      }
+    ],
+    "hdeg": {
+      "dbrl": {
+        "batch_size": 32,
+        "hidden_dim": 64,
+        "embedding_dim": 64,
+        "gru_layers": 1,
+        "graph_top_k": 15,
+        "graph_self_loops": true,
+        "graph_symmetric": true,
+        "graph_heads": 1,
+        "max_batches": null,
+        "max_shards": null,
+        "overwrite": true
+      },
+      "bse": {
+        "batch_size": 32,
+        "num_heads": 1,
+        "max_shards": null,
+        "overwrite": true
+      },
+      "bil": {
+        "batch_size": 32,
+        "num_heads": 1,
+        "max_shards": null,
+        "overwrite": true
+      },
+      "ebrl": {
+        "batch_size": 32,
+        "max_shards": null,
+        "overwrite": true
+      },
+      "hbf": {
+        "checkpoint": "epoch_0001.pt",
+        "batch_size": 32,
+        "dynamics_hidden_dim": 128,
+        "max_shards": null,
+        "overwrite": true
+      },
+      "mbai": {
+        "batch_size": 32,
+        "max_shards": null,
+        "overwrite": true,
+        "fusion_weights": null
+      },
+      "e2e_training": {
+        "epochs": 2,
+        "lr": 0.0001
+      }
+    },
+    "v1_validation": {
+      "r2-pairs": 100000,
+      "r3-max": 50000,
+      "r1-reservoir": 100000,
+      "r1-chunk": 512,
+      "bootstrap-replicates": 1000
+    }
+  },
+  "source_hashes": {
+    "R1": "1a2daf606c09d144f48b9fe2b7e8259ee5b2c753ef938cf6ba50e2661bf1bab6",
+    "R2": "722ecd7a944c2e0f09672107b3be7d9ac6caa76d0bf4f827c74979a6648f8aa7",
+    "labels": "da411d817140f0a5533b09016ae8d20d3fe29d9914e6c47d6863bb6bf5aae09c",
+    "registry": "6f1b5af775fcaa5f76f48ac35934d479e5f084aa7b2c2de0fb9250bd2cf1b684",
+    "manifest": "a33175f859178a61292dd49ce3d62f70fbfac604a3c3c292c5a41962bd35c296",
+    "config": "5400489efa51b5b07afe64a0c34b6df0c6a4f0267e240fa1e1e4796fbf41de56",
+    "runner": "409b662c7dc735cfa814a4cda18ac713baaec0ee6947b5587607cff9491e0d6c",
+    "contract": "6182948078631a9f1b5a7a0ef0ef0940f1b1da33e4ae06ab6307c31b18c185b5"
+  },
+  "primary_blockers": [
+    "Source-clock equivalence needs independent evidence",
+    "Fewer than three independently reviewed observable classes meet all support floors"
+  ],
+  "cross_actor_gate": "BLOCKED",
+  "cross_actor_blockers": [
+    "R2 free-text mapping and period-specific coverage not validated by this training-period auditor"
+  ],
+  "raw_R1_records": 586,
+  "raw_R2_records": 69,
+  "unknown_R1_ids": [
+    "-1.0",
+    "0.0",
+    "1.4",
+    "1.5"
+  ],
+  "invalid_rows": {
+    "R1": [],
+    "R2": []
+  },
+  "duplicates": {
+    "R1": [],
+    "R2": []
+  },
+  "R1_overlap_components": [
+    [
+      4,
+      5
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      28,
+      37,
+      38,
+      39
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      50,
+      51
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      54,
+      55
+    ],
+    [
+      61,
+      31,
+      62
+    ],
+    [
+      70,
+      71
+    ],
+    [
+      86,
+      32,
+      87,
+      33,
+      88
+    ],
+    [
+      102,
+      103
+    ],
+    [
+      107,
+      108,
+      109
+    ],
+    [
+      119,
+      120
+    ],
+    [
+      132,
+      133
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      256,
+      257
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      339,
+      347
+    ],
+    [
+      342,
+      343
+    ],
+    [
+      369,
+      385,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377
+    ],
+    [
+      378,
+      379
+    ],
+    [
+      382,
+      383
+    ],
+    [
+      410,
+      411
+    ],
+    [
+      434,
+      435
+    ],
+    [
+      506,
+      507
+    ],
+    [
+      520,
+      521
+    ],
+    [
+      525,
+      528,
+      529,
+      530
+    ],
+    [
+      546,
+      547
+    ],
+    [
+      553,
+      554
+    ],
+    [
+      578,
+      579
+    ]
+  ],
+  "R2_overlap_components": [],
+  "exclusion_counts": {
+    "overlap_component": 79,
+    "undefined_activity_id": 13,
+    "shorter_than_window": 15,
+    "gap_partial_day_or_partition_crossing": 58,
+    "outside_training_support": 91
+  },
+  "eligible_episode_count": 330,
+  "support_eligible_classes": [],
+  "eligible_classes": [],
+  "clock_review_accepted": false,
+  "observed_channels": [
+    "binary_sensor.smartthings_contact_sensor_pid_004_contact",
+    "binary_sensor.smartthings_contact_sensor_pid_006_contact",
+    "binary_sensor.smartthings_contact_sensor_pid_003_contact",
+    "binary_sensor.xiaomi_contact_sensor_pid_136_contact",
+    "binary_sensor.xiaomi_motion_sensor_kitchen_occupancy",
+    "binary_sensor.xiaomi_motion_sensor_workarea_occupancy",
+    "binary_sensor.aqara_motion_sensor_pid_075_occupancy",
+    "binary_sensor.hue_motion_sensor_1_motion",
+    "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+    "binary_sensor.vibration_sensor_pid_078_vibration",
+    "binary_sensor.aqara_vibration_sensor_pid_079_vibration",
+    "sensor.aqara_temperature_and_humidity_pid_071_temperature",
+    "sensor.aqara_temperature_and_humidity_pid_072_temperature",
+    "sensor.aqara_temperature_and_humidity_pid_073_temperature",
+    "sensor.aqara_temperature_and_humidity_pid_074_temperature",
+    "switch.kasa_017",
+    "switch.kasa_020",
+    "switch.kasa_023",
+    "light.hue_light_bulb_pid_040",
+    "light.053_lumiman_smart_bulb_2",
+    "sensor.mi_air_purifier_3_3h_pm2_5",
+    "switch.kettle_start",
+    "humidifier.mi_smart_antibacterial_humidifier"
+  ],
+  "timestamp_rows_verified": 1632960,
+  "split": {
+    "complete_days": 18,
+    "cutoffs": [
+      "2022-10-28 00:00:00",
+      "2022-11-01 00:00:00"
+    ],
+    "gap_days": [
+      "2022-10-27 00:00:00",
+      "2022-10-31 00:00:00"
+    ],
+    "roles": {
+      "fit": {
+        "start": "2022-10-18 00:00:00",
+        "end_exclusive": "2022-10-27 00:00:00"
+      },
+      "selection": {
+        "start": "2022-10-28 00:00:00",
+        "end_exclusive": "2022-10-31 00:00:00"
+      },
+      "assessment": {
+        "start": "2022-11-01 00:00:00",
+        "end_exclusive": "2022-11-05 00:00:00"
+      }
+    },
+    "timestamp_arithmetic": "naive source clock; timezone equivalence not inferred",
+    "input_start": "2022-10-18 00:00:00",
+    "input_end_exclusive": "2022-11-05 21:36:00",
+    "input_manifest_sha256": "a33175f859178a61292dd49ce3d62f70fbfac604a3c3c292c5a41962bd35c296",
+    "window_rows": 30,
+    "max_windows_per_episode": 8
+  },
+  "notes": [
+    "READY_FOR_PROTOCOL_REVIEW never authorizes training.",
+    "Undefined labels and overlaps are explicitly excluded, not converted to negative labels.",
+    "All current coverage numbers describe metadata eligibility, not actual activity separability.",
+    "Existing prepared scaling used the broader training period; strict prefix-fit scaling must be regenerated before a future experiment.",
+    "Assessment is development data, not an untouched final test.",
+    "Unknown input observability cannot be resolved from PID substring matches alone."
+  ],
+  "source_recheck_passed": true,
+  "output_hashes": {
+    "channel_observability_candidates.json": "4ff61793a0bd0f71a06335ab58956748f31064e663aefe6b0afe41233dbac578",
+    "R2_unmapped_descriptions.json": "c2fcf00ebf4c104aeb63eae08935321abcaa1b99acf7d839015f76aaf75c3ffc",
+    "episode_inventory.json": "124dd002e23e70ef0639be9678972c28ec34279827b642c75378db70da5108af",
+    "class_coverage.json": "d5361c9213072df9ff48884f312843abf3c0ff5f637fbf64be29dc450f95e3d2",
+    "proposed_split_manifest.json": "9ece430f0d86882eb5e6b2c42779dd57b148fe247e8c7ea24928f61e654821f9"
+  }
+}

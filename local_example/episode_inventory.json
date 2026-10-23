@@ -1,0 +1,7915 @@
+[
+  {
+    "row": 2,
+    "start": 1666270320,
+    "end": 1666270620,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      219120,
+      219150,
+      219180,
+      219210,
+      219270,
+      219300,
+      219330,
+      219390
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 3,
+    "start": 1666274460,
+    "end": 1666274940,
+    "label": "2.1",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      223260,
+      223320,
+      223380,
+      223440,
+      223500,
+      223560,
+      223620,
+      223710
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 4,
+    "start": 1666275000,
+    "end": 1666275060,
+    "label": "1.3",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 5,
+    "start": 1666275000,
+    "end": 1666275060,
+    "label": "1.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 6,
+    "start": 1666276020,
+    "end": 1666276080,
+    "label": "6.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      224820,
+      224850
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 7,
+    "start": 1666276140,
+    "end": 1666276170,
+    "label": "6.1",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      224940
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 8,
+    "start": 1666276200,
+    "end": 1666276260,
+    "label": "6.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      225000,
+      225030
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 9,
+    "start": 1666276260,
+    "end": 1666276320,
+    "label": "6.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      225060,
+      225090
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 10,
+    "start": 1666276320,
+    "end": 1666276350,
+    "label": "6.7",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      225120
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 11,
+    "start": 1666276380,
+    "end": 1666276410,
+    "label": "6.4",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      225180
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 12,
+    "start": 1666276440,
+    "end": 1666276500,
+    "label": "6.5",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      225240,
+      225270
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 13,
+    "start": 1666276500,
+    "end": 1666276530,
+    "label": "6.6",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      225300
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 14,
+    "start": 1666276530,
+    "end": 1666276620,
+    "label": "6.6",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 15,
+    "start": 1666276590,
+    "end": 1666276770,
+    "label": "3.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 16,
+    "start": 1666276800,
+    "end": 1666277100,
+    "label": "2.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      225600,
+      225630,
+      225660,
+      225690,
+      225750,
+      225780,
+      225810,
+      225870
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 17,
+    "start": 1666277400,
+    "end": 1666277460,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      226200,
+      226230
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 18,
+    "start": 1666277520,
+    "end": 1666277580,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      226320,
+      226350
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 19,
+    "start": 1666277760,
+    "end": 1666278000,
+    "label": "4.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      226560,
+      226590,
+      226620,
+      226650,
+      226680,
+      226710,
+      226740,
+      226770
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 20,
+    "start": 1666278000,
+    "end": 1666278120,
+    "label": "6.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      226800,
+      226830,
+      226860,
+      226890
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 21,
+    "start": 1666278180,
+    "end": 1666278330,
+    "label": "-1.0",
+    "eligible": false,
+    "role": "fit",
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 22,
+    "start": 1666279200,
+    "end": 1666279230,
+    "label": "6.5",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      228000
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 23,
+    "start": 1666279260,
+    "end": 1666279290,
+    "label": "6.6",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      228060
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 24,
+    "start": 1666281660,
+    "end": 1666281690,
+    "label": "6.6",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      230460
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 25,
+    "start": 1666281720,
+    "end": 1666281960,
+    "label": "2.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      230520,
+      230550,
+      230580,
+      230610,
+      230640,
+      230670,
+      230700,
+      230730
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 26,
+    "start": 1666287720,
+    "end": 1666287780,
+    "label": "1.5",
+    "eligible": false,
+    "role": "fit",
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 27,
+    "start": 1666342320,
+    "end": 1666342380,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      291120,
+      291150
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 56,
+    "start": 1666355190,
+    "end": 1666355250,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      303990,
+      304020
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 57,
+    "start": 1666355250,
+    "end": 1666355310,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      304050,
+      304080
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 58,
+    "start": 1666355340,
+    "end": 1666355400,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      304140,
+      304170
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 78,
+    "start": 1666356585,
+    "end": 1666356645,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      305385,
+      305415
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 79,
+    "start": 1666356645,
+    "end": 1666356705,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      305445,
+      305475
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 80,
+    "start": 1666356705,
+    "end": 1666356765,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      305505,
+      305535
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 34,
+    "start": 1666357680,
+    "end": 1666357860,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      306480,
+      306510,
+      306540,
+      306570,
+      306600,
+      306630
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 35,
+    "start": 1666358040,
+    "end": 1666358640,
+    "label": "4.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      306840,
+      306900,
+      306990,
+      307080,
+      307140,
+      307230,
+      307320,
+      307410
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 36,
+    "start": 1666359000,
+    "end": 1666359180,
+    "label": "2.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      307800,
+      307830,
+      307860,
+      307890,
+      307920,
+      307950
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 100,
+    "start": 1666371070,
+    "end": 1666371390,
+    "label": "4.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      319870,
+      319900,
+      319930,
+      319960,
+      320020,
+      320050,
+      320080,
+      320140
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 28,
+    "start": 1666602000,
+    "end": 1666605600,
+    "label": "-1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 37,
+    "start": 1666603140,
+    "end": 1666603320,
+    "label": "1.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 38,
+    "start": 1666603860,
+    "end": 1666604340,
+    "label": "4.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 39,
+    "start": 1666604460,
+    "end": 1666605060,
+    "label": "2.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 29,
+    "start": 1666605600,
+    "end": 1666608900,
+    "label": "-1.0",
+    "eligible": false,
+    "role": "fit",
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 30,
+    "start": 1666608960,
+    "end": 1666609860,
+    "label": "2.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 40,
+    "start": 1666609020,
+    "end": 1666609080,
+    "label": "2.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 41,
+    "start": 1666612110,
+    "end": 1666612170,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      560910,
+      560940
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 42,
+    "start": 1666612800,
+    "end": 1666612860,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      561600,
+      561630
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 43,
+    "start": 1666613330,
+    "end": 1666613390,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      562130,
+      562160
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 44,
+    "start": 1666613410,
+    "end": 1666613470,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      562210,
+      562240
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 45,
+    "start": 1666613500,
+    "end": 1666613560,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      562300,
+      562330
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 46,
+    "start": 1666613597,
+    "end": 1666613657,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      562397,
+      562427
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 47,
+    "start": 1666613662,
+    "end": 1666613722,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      562462,
+      562492
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 48,
+    "start": 1666613762,
+    "end": 1666613822,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      562562,
+      562592
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 49,
+    "start": 1666613825,
+    "end": 1666613885,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      562625,
+      562655
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 50,
+    "start": 1666613920,
+    "end": 1666613980,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 51,
+    "start": 1666613970,
+    "end": 1666614030,
+    "label": "1.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 52,
+    "start": 1666614070,
+    "end": 1666614130,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 53,
+    "start": 1666614120,
+    "end": 1666614180,
+    "label": "1.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 54,
+    "start": 1666614198,
+    "end": 1666614258,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 55,
+    "start": 1666614240,
+    "end": 1666614300,
+    "label": "1.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 59,
+    "start": 1666614630,
+    "end": 1666614690,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      563430,
+      563460
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 60,
+    "start": 1666614690,
+    "end": 1666614750,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      563490,
+      563520
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 61,
+    "start": 1666614750,
+    "end": 1666614810,
+    "label": "1.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 31,
+    "start": 1666614780,
+    "end": 1666614840,
+    "label": "1.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 62,
+    "start": 1666614810,
+    "end": 1666614870,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 63,
+    "start": 1666614870,
+    "end": 1666614930,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      563670,
+      563700
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 64,
+    "start": 1666614935,
+    "end": 1666614995,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      563735,
+      563765
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 65,
+    "start": 1666614995,
+    "end": 1666615055,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      563795,
+      563825
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 66,
+    "start": 1666615055,
+    "end": 1666615115,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      563855,
+      563885
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 67,
+    "start": 1666615115,
+    "end": 1666615175,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      563915,
+      563945
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 68,
+    "start": 1666615175,
+    "end": 1666615235,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      563975,
+      564005
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 69,
+    "start": 1666615235,
+    "end": 1666615295,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      564035,
+      564065
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 70,
+    "start": 1666615300,
+    "end": 1666615360,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 71,
+    "start": 1666615300,
+    "end": 1666615360,
+    "label": "1.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 72,
+    "start": 1666615420,
+    "end": 1666615480,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      564220,
+      564250
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 73,
+    "start": 1666615480,
+    "end": 1666615540,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      564280,
+      564310
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 74,
+    "start": 1666615540,
+    "end": 1666615600,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      564340,
+      564370
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 75,
+    "start": 1666615600,
+    "end": 1666615660,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      564400,
+      564430
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 76,
+    "start": 1666615665,
+    "end": 1666615725,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      564465,
+      564495
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 77,
+    "start": 1666615725,
+    "end": 1666615785,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      564525,
+      564555
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 81,
+    "start": 1666615965,
+    "end": 1666616025,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      564765,
+      564795
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 82,
+    "start": 1666616025,
+    "end": 1666616085,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      564825,
+      564855
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 83,
+    "start": 1666616085,
+    "end": 1666616145,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      564885,
+      564915
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 84,
+    "start": 1666616145,
+    "end": 1666616205,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      564945,
+      564975
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 85,
+    "start": 1666616205,
+    "end": 1666616265,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      565005,
+      565035
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 86,
+    "start": 1666616265,
+    "end": 1666616325,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 32,
+    "start": 1666616280,
+    "end": 1666616340,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 87,
+    "start": 1666616325,
+    "end": 1666616385,
+    "label": "1.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 33,
+    "start": 1666616340,
+    "end": 1666616820,
+    "label": "4.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 88,
+    "start": 1666616385,
+    "end": 1666616445,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 89,
+    "start": 1666620600,
+    "end": 1666621560,
+    "label": "4.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      569400,
+      569520,
+      569640,
+      569790,
+      569910,
+      570060,
+      570180,
+      570330
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 90,
+    "start": 1666621800,
+    "end": 1666622760,
+    "label": "4.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      570600,
+      570720,
+      570840,
+      570990,
+      571110,
+      571260,
+      571380,
+      571530
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 91,
+    "start": 1666622820,
+    "end": 1666623960,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      571620,
+      571770,
+      571920,
+      572070,
+      572250,
+      572400,
+      572550,
+      572730
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 92,
+    "start": 1666625820,
+    "end": 1666626010,
+    "label": "6.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      574620,
+      574650,
+      574680,
+      574710,
+      574740,
+      574770
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 93,
+    "start": 1666626045,
+    "end": 1666626075,
+    "label": "6.1",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      574845
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 94,
+    "start": 1666626090,
+    "end": 1666626270,
+    "label": "6.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      574890,
+      574920,
+      574950,
+      574980,
+      575010,
+      575040
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 95,
+    "start": 1666626290,
+    "end": 1666626360,
+    "label": "6.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      575090,
+      575120
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 96,
+    "start": 1666626390,
+    "end": 1666626420,
+    "label": "6.5",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      575190
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 97,
+    "start": 1666626480,
+    "end": 1666626600,
+    "label": "8.1",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      575280,
+      575310,
+      575340,
+      575370
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 98,
+    "start": 1666626600,
+    "end": 1666629540,
+    "label": "7.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      575400,
+      575790,
+      576210,
+      576630,
+      577050,
+      577470,
+      577890,
+      578310
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 99,
+    "start": 1666630200,
+    "end": 1666630260,
+    "label": "7.1",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      579000,
+      579030
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 101,
+    "start": 1666631850,
+    "end": 1666632005,
+    "label": "6.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      580650,
+      580680,
+      580710,
+      580740,
+      580770
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 102,
+    "start": 1666632030,
+    "end": 1666632060,
+    "label": "6.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 103,
+    "start": 1666632050,
+    "end": 1666632120,
+    "label": "6.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 104,
+    "start": 1666632150,
+    "end": 1666632300,
+    "label": "6.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      580950,
+      580980,
+      581010,
+      581040,
+      581070
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 105,
+    "start": 1666632320,
+    "end": 1666632350,
+    "label": "6.5",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      581120
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 106,
+    "start": 1666632630,
+    "end": 1666632900,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      581430,
+      581460,
+      581490,
+      581520,
+      581550,
+      581580,
+      581610,
+      581670
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 107,
+    "start": 1666633300,
+    "end": 1666633445,
+    "label": "6.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 108,
+    "start": 1666633408,
+    "end": 1666633438,
+    "label": "6.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 109,
+    "start": 1666633440,
+    "end": 1666633565,
+    "label": "6.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 110,
+    "start": 1666633620,
+    "end": 1666633650,
+    "label": "6.5",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      582420
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 111,
+    "start": 1666633740,
+    "end": 1666633875,
+    "label": "8.1",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      582540,
+      582570,
+      582600,
+      582630
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 112,
+    "start": 1666635340,
+    "end": 1666635365,
+    "label": "6.0",
+    "eligible": false,
+    "role": "fit",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 113,
+    "start": 1666635390,
+    "end": 1666635420,
+    "label": "6.1",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      584190
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 114,
+    "start": 1666635420,
+    "end": 1666635545,
+    "label": "6.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      584220,
+      584250,
+      584280,
+      584310
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 115,
+    "start": 1666635570,
+    "end": 1666635630,
+    "label": "6.5",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      584370,
+      584400
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 116,
+    "start": 1666691760,
+    "end": 1666691820,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      640560,
+      640590
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 117,
+    "start": 1666692540,
+    "end": 1666693320,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      641340,
+      641430,
+      641550,
+      641640,
+      641760,
+      641850,
+      641970,
+      642090
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 118,
+    "start": 1666693370,
+    "end": 1666693430,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      642170,
+      642200
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 119,
+    "start": 1666694235,
+    "end": 1666694295,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 120,
+    "start": 1666694280,
+    "end": 1666694940,
+    "label": "3.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 121,
+    "start": 1666695420,
+    "end": 1666695720,
+    "label": "4.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      644220,
+      644250,
+      644280,
+      644310,
+      644370,
+      644400,
+      644430,
+      644490
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 122,
+    "start": 1666695765,
+    "end": 1666696110,
+    "label": "4.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      644565,
+      644595,
+      644625,
+      644685,
+      644715,
+      644775,
+      644805,
+      644865
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 123,
+    "start": 1666696680,
+    "end": 1666697225,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      645480,
+      645540,
+      645600,
+      645690,
+      645750,
+      645840,
+      645900,
+      645990
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 124,
+    "start": 1666698540,
+    "end": 1666698720,
+    "label": "6.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      647340,
+      647370,
+      647400,
+      647430,
+      647460,
+      647490
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 125,
+    "start": 1666698750,
+    "end": 1666698830,
+    "label": "6.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      647550,
+      647580
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 126,
+    "start": 1666698900,
+    "end": 1666698960,
+    "label": "6.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      647700,
+      647730
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 127,
+    "start": 1666700040,
+    "end": 1666700100,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      648840,
+      648870
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 128,
+    "start": 1666701480,
+    "end": 1666701540,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      650280,
+      650310
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 129,
+    "start": 1666701540,
+    "end": 1666702320,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      650340,
+      650430,
+      650550,
+      650640,
+      650760,
+      650850,
+      650970,
+      651090
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 130,
+    "start": 1666702680,
+    "end": 1666703580,
+    "label": "4.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      651480,
+      651600,
+      651720,
+      651840,
+      651960,
+      652080,
+      652200,
+      652350
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 131,
+    "start": 1666703790,
+    "end": 1666704150,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      652590,
+      652620,
+      652680,
+      652710,
+      652770,
+      652800,
+      652860,
+      652920
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 132,
+    "start": 1666704660,
+    "end": 1666704960,
+    "label": "3.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 133,
+    "start": 1666704660,
+    "end": 1666704964,
+    "label": "6.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 134,
+    "start": 1666705110,
+    "end": 1666705170,
+    "label": "6.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      653910,
+      653940
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 135,
+    "start": 1666705200,
+    "end": 1666705320,
+    "label": "6.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      654000,
+      654030,
+      654060,
+      654090
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 136,
+    "start": 1666705350,
+    "end": 1666705380,
+    "label": "6.1",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      654150
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 137,
+    "start": 1666705500,
+    "end": 1666716720,
+    "label": "7.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      654300,
+      655890,
+      657480,
+      659070,
+      660690,
+      662280,
+      663870,
+      665490
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 138,
+    "start": 1666716720,
+    "end": 1666717020,
+    "label": "7.1",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      665520,
+      665550,
+      665580,
+      665610,
+      665670,
+      665700,
+      665730,
+      665790
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 139,
+    "start": 1666718550,
+    "end": 1666719000,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      667350,
+      667410,
+      667470,
+      667530,
+      667590,
+      667650,
+      667710,
+      667770
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 140,
+    "start": 1666719120,
+    "end": 1666719420,
+    "label": "4.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      667920,
+      667950,
+      667980,
+      668010,
+      668070,
+      668100,
+      668130,
+      668190
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 141,
+    "start": 1666721100,
+    "end": 1666721160,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      669900,
+      669930
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 142,
+    "start": 1666721160,
+    "end": 1666721220,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      669960,
+      669990
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 143,
+    "start": 1666721220,
+    "end": 1666721280,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670020,
+      670050
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 144,
+    "start": 1666721280,
+    "end": 1666721340,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670080,
+      670110
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 145,
+    "start": 1666721340,
+    "end": 1666721400,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670140,
+      670170
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 146,
+    "start": 1666721400,
+    "end": 1666721460,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670200,
+      670230
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 147,
+    "start": 1666721460,
+    "end": 1666721520,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670260,
+      670290
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 148,
+    "start": 1666721520,
+    "end": 1666721580,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670320,
+      670350
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 149,
+    "start": 1666721580,
+    "end": 1666721640,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670380,
+      670410
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 150,
+    "start": 1666721640,
+    "end": 1666721700,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670440,
+      670470
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 151,
+    "start": 1666721700,
+    "end": 1666721760,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670500,
+      670530
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 152,
+    "start": 1666721760,
+    "end": 1666721820,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670560,
+      670590
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 153,
+    "start": 1666721820,
+    "end": 1666721880,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670620,
+      670650
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 154,
+    "start": 1666721880,
+    "end": 1666721940,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670680,
+      670710
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 155,
+    "start": 1666721940,
+    "end": 1666722000,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670740,
+      670770
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 156,
+    "start": 1666722000,
+    "end": 1666722060,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670800,
+      670830
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 157,
+    "start": 1666722060,
+    "end": 1666722120,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670860,
+      670890
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 158,
+    "start": 1666722120,
+    "end": 1666722180,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670920,
+      670950
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 159,
+    "start": 1666722180,
+    "end": 1666722240,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      670980,
+      671010
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 160,
+    "start": 1666722240,
+    "end": 1666722300,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      671040,
+      671070
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 161,
+    "start": 1666722300,
+    "end": 1666722360,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      671100,
+      671130
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 162,
+    "start": 1666722360,
+    "end": 1666722420,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      671160,
+      671190
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 163,
+    "start": 1666722420,
+    "end": 1666722480,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      671220,
+      671250
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 164,
+    "start": 1666722480,
+    "end": 1666722540,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      671280,
+      671310
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 165,
+    "start": 1666722540,
+    "end": 1666722600,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      671340,
+      671370
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 166,
+    "start": 1666722600,
+    "end": 1666722660,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      671400,
+      671430
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 167,
+    "start": 1666722660,
+    "end": 1666722720,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      671460,
+      671490
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 168,
+    "start": 1666722720,
+    "end": 1666722780,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      671520,
+      671550
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 169,
+    "start": 1666723590,
+    "end": 1666723800,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      672390,
+      672420,
+      672450,
+      672480,
+      672510,
+      672540,
+      672570
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 170,
+    "start": 1666777760,
+    "end": 1666777820,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      726560,
+      726590
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 171,
+    "start": 1666778040,
+    "end": 1666778100,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      726840,
+      726870
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 172,
+    "start": 1666778220,
+    "end": 1666778700,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      727020,
+      727080,
+      727140,
+      727200,
+      727260,
+      727320,
+      727380,
+      727470
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 173,
+    "start": 1666778730,
+    "end": 1666778855,
+    "label": "6.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      727530,
+      727560,
+      727590,
+      727620
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 174,
+    "start": 1666778880,
+    "end": 1666778895,
+    "label": "6.1",
+    "eligible": false,
+    "role": "fit",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 175,
+    "start": 1666778910,
+    "end": 1666778975,
+    "label": "6.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      727710,
+      727740
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 176,
+    "start": 1666782720,
+    "end": 1666782780,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      731520,
+      731550
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 177,
+    "start": 1666783980,
+    "end": 1666784040,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      732780,
+      732810
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 178,
+    "start": 1666786020,
+    "end": 1666786340,
+    "label": "4.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      734820,
+      734850,
+      734880,
+      734910,
+      734970,
+      735000,
+      735030,
+      735090
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 179,
+    "start": 1666787430,
+    "end": 1666788030,
+    "label": "4.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      736230,
+      736290,
+      736380,
+      736470,
+      736530,
+      736620,
+      736710,
+      736800
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 180,
+    "start": 1666788120,
+    "end": 1666788420,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      736920,
+      736950,
+      736980,
+      737010,
+      737070,
+      737100,
+      737130,
+      737190
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 181,
+    "start": 1666794420,
+    "end": 1666794480,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743220,
+      743250
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 182,
+    "start": 1666794480,
+    "end": 1666794540,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743280,
+      743310
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 183,
+    "start": 1666794540,
+    "end": 1666794600,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743340,
+      743370
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 184,
+    "start": 1666794600,
+    "end": 1666794660,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743400,
+      743430
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 185,
+    "start": 1666794660,
+    "end": 1666794720,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743460,
+      743490
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 186,
+    "start": 1666794720,
+    "end": 1666794780,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743520,
+      743550
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 187,
+    "start": 1666794780,
+    "end": 1666794840,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743580,
+      743610
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 188,
+    "start": 1666794840,
+    "end": 1666794900,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743640,
+      743670
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 189,
+    "start": 1666794900,
+    "end": 1666794960,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743700,
+      743730
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 190,
+    "start": 1666794960,
+    "end": 1666795020,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743760,
+      743790
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 191,
+    "start": 1666795020,
+    "end": 1666795080,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743820,
+      743850
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 192,
+    "start": 1666795080,
+    "end": 1666795140,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743880,
+      743910
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 193,
+    "start": 1666795140,
+    "end": 1666795200,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      743940,
+      743970
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 194,
+    "start": 1666795740,
+    "end": 1666796405,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      744540,
+      744630,
+      744720,
+      744810,
+      744900,
+      744990,
+      745080,
+      745170
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 195,
+    "start": 1666797300,
+    "end": 1666797630,
+    "label": "8.1",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      746100,
+      746130,
+      746160,
+      746220,
+      746250,
+      746310,
+      746340,
+      746400
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 196,
+    "start": 1666797690,
+    "end": 1666802460,
+    "label": "7.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 197,
+    "start": 1666802430,
+    "end": 1666802460,
+    "label": "7.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 198,
+    "start": 1666802460,
+    "end": 1666802670,
+    "label": "8.1",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      751260,
+      751290,
+      751320,
+      751350,
+      751380,
+      751410,
+      751440
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 199,
+    "start": 1666802850,
+    "end": 1666803180,
+    "label": "4.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      751650,
+      751680,
+      751710,
+      751770,
+      751800,
+      751860,
+      751890,
+      751950
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 200,
+    "start": 1666803210,
+    "end": 1666803660,
+    "label": "4.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      752010,
+      752070,
+      752130,
+      752190,
+      752250,
+      752310,
+      752370,
+      752430
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 201,
+    "start": 1666803690,
+    "end": 1666803930,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      752490,
+      752520,
+      752550,
+      752580,
+      752610,
+      752640,
+      752670,
+      752700
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 202,
+    "start": 1666803960,
+    "end": 1666804680,
+    "label": "4.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      752760,
+      752850,
+      752940,
+      753030,
+      753150,
+      753240,
+      753330,
+      753450
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 203,
+    "start": 1666804740,
+    "end": 1666805160,
+    "label": "4.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      753540,
+      753570,
+      753630,
+      753690,
+      753750,
+      753810,
+      753870,
+      753930
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 204,
+    "start": 1666806660,
+    "end": 1666806900,
+    "label": "6.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      755460,
+      755490,
+      755520,
+      755550,
+      755580,
+      755610,
+      755640,
+      755670
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 205,
+    "start": 1666806930,
+    "end": 1666807115,
+    "label": "6.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      755730,
+      755760,
+      755790,
+      755820,
+      755850,
+      755880
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 206,
+    "start": 1666807140,
+    "end": 1666807320,
+    "label": "6.3",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      755940,
+      755970,
+      756000,
+      756030,
+      756060,
+      756090
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 207,
+    "start": 1666807350,
+    "end": 1666807365,
+    "label": "6.1",
+    "eligible": false,
+    "role": "fit",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 208,
+    "start": 1666807380,
+    "end": 1666807395,
+    "label": "6.5",
+    "eligible": false,
+    "role": "fit",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 209,
+    "start": 1666807410,
+    "end": 1666807425,
+    "label": "6.4",
+    "eligible": false,
+    "role": "fit",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 210,
+    "start": 1666807560,
+    "end": 1666808220,
+    "label": "3.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      756360,
+      756450,
+      756540,
+      756630,
+      756720,
+      756810,
+      756900,
+      756990
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 211,
+    "start": 1666808340,
+    "end": 1666808400,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757140,
+      757170
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 212,
+    "start": 1666808400,
+    "end": 1666808460,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757200,
+      757230
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 213,
+    "start": 1666808460,
+    "end": 1666808520,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757260,
+      757290
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 214,
+    "start": 1666808520,
+    "end": 1666808580,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757320,
+      757350
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 215,
+    "start": 1666808580,
+    "end": 1666808640,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757380,
+      757410
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 216,
+    "start": 1666808640,
+    "end": 1666808700,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757440,
+      757470
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 217,
+    "start": 1666808700,
+    "end": 1666808760,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757500,
+      757530
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 218,
+    "start": 1666808760,
+    "end": 1666808820,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757560,
+      757590
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 219,
+    "start": 1666808820,
+    "end": 1666808880,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757620,
+      757650
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 220,
+    "start": 1666808880,
+    "end": 1666808940,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757680,
+      757710
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 221,
+    "start": 1666808940,
+    "end": 1666809000,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757740,
+      757770
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 222,
+    "start": 1666809000,
+    "end": 1666809060,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757800,
+      757830
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 223,
+    "start": 1666809060,
+    "end": 1666809120,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757860,
+      757890
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 224,
+    "start": 1666809120,
+    "end": 1666809180,
+    "label": "1.0",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      757920,
+      757950
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 225,
+    "start": 1666809540,
+    "end": 1666809600,
+    "label": "1.2",
+    "eligible": true,
+    "role": "fit",
+    "reason": null,
+    "window_start_rows": [
+      758340,
+      758370
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 226,
+    "start": 1666858380,
+    "end": 1666858440,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 227,
+    "start": 1666861920,
+    "end": 1666862100,
+    "label": "2.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 228,
+    "start": 1666862670,
+    "end": 1666862980,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 229,
+    "start": 1666866120,
+    "end": 1666866300,
+    "label": "6.2",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 230,
+    "start": 1666866360,
+    "end": 1666866480,
+    "label": "6.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 231,
+    "start": 1666866540,
+    "end": 1666866605,
+    "label": "6.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 232,
+    "start": 1666866690,
+    "end": 1666866705,
+    "label": "6.1",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 233,
+    "start": 1666866720,
+    "end": 1666866735,
+    "label": "6.5",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 234,
+    "start": 1666866780,
+    "end": 1666867080,
+    "label": "2.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 235,
+    "start": 1666867140,
+    "end": 1666867300,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 236,
+    "start": 1666867380,
+    "end": 1666867470,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 237,
+    "start": 1666869300,
+    "end": 1666869360,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 238,
+    "start": 1666870650,
+    "end": 1666870710,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 239,
+    "start": 1666871670,
+    "end": 1666871950,
+    "label": "4.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 240,
+    "start": 1666872000,
+    "end": 1666872350,
+    "label": "4.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 241,
+    "start": 1666872390,
+    "end": 1666872550,
+    "label": "2.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 242,
+    "start": 1666873110,
+    "end": 1666875180,
+    "label": "7.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 243,
+    "start": 1666875180,
+    "end": 1666875330,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 244,
+    "start": 1666876680,
+    "end": 1666877610,
+    "label": "4.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 245,
+    "start": 1666877880,
+    "end": 1666877940,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 246,
+    "start": 1666879170,
+    "end": 1666879230,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 247,
+    "start": 1666879800,
+    "end": 1666880400,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 248,
+    "start": 1666880970,
+    "end": 1666881540,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 249,
+    "start": 1666881570,
+    "end": 1666881750,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 250,
+    "start": 1666881960,
+    "end": 1666882200,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 251,
+    "start": 1666882320,
+    "end": 1666882740,
+    "label": "5.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 252,
+    "start": 1666882830,
+    "end": 1666883520,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 253,
+    "start": 1666883550,
+    "end": 1666883885,
+    "label": "4.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 254,
+    "start": 1666889400,
+    "end": 1666889640,
+    "label": "2.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 255,
+    "start": 1666945080,
+    "end": 1666945140,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      893880,
+      893910
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 256,
+    "start": 1666946120,
+    "end": 1666947320,
+    "label": "2.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 257,
+    "start": 1666946180,
+    "end": 1666946700,
+    "label": "3.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 258,
+    "start": 1666948500,
+    "end": 1666948560,
+    "label": "2.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      897300,
+      897330
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 259,
+    "start": 1666948950,
+    "end": 1666949290,
+    "label": "3.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      897750,
+      897780,
+      897810,
+      897870,
+      897900,
+      897960,
+      897990,
+      898050
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 260,
+    "start": 1666949460,
+    "end": 1666949942,
+    "label": "3.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      898260,
+      898320,
+      898380,
+      898440,
+      898500,
+      898560,
+      898620,
+      898710
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 261,
+    "start": 1666950000,
+    "end": 1666950035,
+    "label": "2.1",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      898800
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 262,
+    "start": 1666950900,
+    "end": 1666950960,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      899700,
+      899730
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 263,
+    "start": 1666952130,
+    "end": 1666952190,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      900930,
+      900960
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 264,
+    "start": 1666952220,
+    "end": 1666952760,
+    "label": "3.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      901020,
+      901080,
+      901140,
+      901230,
+      901290,
+      901380,
+      901440,
+      901530
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 265,
+    "start": 1666953600,
+    "end": 1666953660,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      902400,
+      902430
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 266,
+    "start": 1666953660,
+    "end": 1666953720,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      902460,
+      902490
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 267,
+    "start": 1666953720,
+    "end": 1666953780,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      902520,
+      902550
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 268,
+    "start": 1666953780,
+    "end": 1666953840,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      902580,
+      902610
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 269,
+    "start": 1666953840,
+    "end": 1666953900,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      902640,
+      902670
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 270,
+    "start": 1666953900,
+    "end": 1666953960,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      902700,
+      902730
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 271,
+    "start": 1666953960,
+    "end": 1666954020,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      902760,
+      902790
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 272,
+    "start": 1666954020,
+    "end": 1666954080,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      902820,
+      902850
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 273,
+    "start": 1666954080,
+    "end": 1666954140,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      902880,
+      902910
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 274,
+    "start": 1666954140,
+    "end": 1666954200,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      902940,
+      902970
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 275,
+    "start": 1666954200,
+    "end": 1666954260,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903000,
+      903030
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 276,
+    "start": 1666954260,
+    "end": 1666954320,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903060,
+      903090
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 277,
+    "start": 1666954320,
+    "end": 1666954380,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903120,
+      903150
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 278,
+    "start": 1666954380,
+    "end": 1666954440,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903180,
+      903210
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 279,
+    "start": 1666954440,
+    "end": 1666954500,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903240,
+      903270
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 280,
+    "start": 1666954500,
+    "end": 1666954560,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903300,
+      903330
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 281,
+    "start": 1666954560,
+    "end": 1666954620,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903360,
+      903390
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 282,
+    "start": 1666954620,
+    "end": 1666954680,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903420,
+      903450
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 283,
+    "start": 1666954680,
+    "end": 1666954740,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903480,
+      903510
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 284,
+    "start": 1666954740,
+    "end": 1666954800,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903540,
+      903570
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 285,
+    "start": 1666954800,
+    "end": 1666954860,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903600,
+      903630
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 286,
+    "start": 1666954860,
+    "end": 1666954920,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      903660,
+      903690
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 287,
+    "start": 1666956000,
+    "end": 1666956300,
+    "label": "4.3",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      904800,
+      904830,
+      904860,
+      904890,
+      904950,
+      904980,
+      905010,
+      905070
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 288,
+    "start": 1666956360,
+    "end": 1666956615,
+    "label": "4.3",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      905160,
+      905190,
+      905220,
+      905250,
+      905280,
+      905310,
+      905340,
+      905370
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 289,
+    "start": 1666959180,
+    "end": 1666959420,
+    "label": "8.1",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      907980,
+      908010,
+      908040,
+      908070,
+      908100,
+      908130,
+      908160,
+      908190
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 290,
+    "start": 1666959780,
+    "end": 1666960440,
+    "label": "2.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      908580,
+      908670,
+      908760,
+      908850,
+      908940,
+      909030,
+      909120,
+      909210
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 291,
+    "start": 1666960470,
+    "end": 1666960500,
+    "label": "2.1",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      909270
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 292,
+    "start": 1666960530,
+    "end": 1666961130,
+    "label": "3.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      909330,
+      909390,
+      909480,
+      909570,
+      909630,
+      909720,
+      909810,
+      909900
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 294,
+    "start": 1666961130,
+    "end": 1666961190,
+    "label": "1.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      909930,
+      909960
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 293,
+    "start": 1666961700,
+    "end": 1666961760,
+    "label": "1.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      910500,
+      910530
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 295,
+    "start": 1666962900,
+    "end": 1666963470,
+    "label": "5.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      911700,
+      911760,
+      911850,
+      911910,
+      912000,
+      912060,
+      912150,
+      912240
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 296,
+    "start": 1666963560,
+    "end": 1666964100,
+    "label": "3.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      912360,
+      912420,
+      912480,
+      912570,
+      912630,
+      912720,
+      912780,
+      912870
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 297,
+    "start": 1666964220,
+    "end": 1666964340,
+    "label": "6.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      913020,
+      913050,
+      913080,
+      913110
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 298,
+    "start": 1666964370,
+    "end": 1666964385,
+    "label": "6.1",
+    "eligible": false,
+    "role": "selection",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 299,
+    "start": 1666964400,
+    "end": 1666964525,
+    "label": "6.3",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      913200,
+      913230,
+      913260,
+      913290
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 300,
+    "start": 1666964580,
+    "end": 1666964700,
+    "label": "6.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      913380,
+      913410,
+      913440,
+      913470
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 301,
+    "start": 1666964730,
+    "end": 1666964745,
+    "label": "6.5",
+    "eligible": false,
+    "role": "selection",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 302,
+    "start": 1666964760,
+    "end": 1666964775,
+    "label": "6.4",
+    "eligible": false,
+    "role": "selection",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 303,
+    "start": 1666964790,
+    "end": 1666964805,
+    "label": "6.4",
+    "eligible": false,
+    "role": "selection",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 304,
+    "start": 1666964820,
+    "end": 1666965600,
+    "label": "3.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      913620,
+      913710,
+      913830,
+      913920,
+      914040,
+      914130,
+      914250,
+      914370
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 305,
+    "start": 1666965780,
+    "end": 1666966770,
+    "label": "4.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      914580,
+      914700,
+      914850,
+      914970,
+      915120,
+      915240,
+      915390,
+      915540
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 306,
+    "start": 1666967100,
+    "end": 1666967375,
+    "label": "8.1",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      915900,
+      915930,
+      915960,
+      915990,
+      916020,
+      916050,
+      916080,
+      916140
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 307,
+    "start": 1666967430,
+    "end": 1666968070,
+    "label": "3.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      916230,
+      916290,
+      916380,
+      916470,
+      916560,
+      916650,
+      916740,
+      916830
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 308,
+    "start": 1666972140,
+    "end": 1666972560,
+    "label": "2.3",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      920940,
+      920970,
+      921030,
+      921090,
+      921150,
+      921210,
+      921270,
+      921330
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 309,
+    "start": 1666972980,
+    "end": 1666973520,
+    "label": "3.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      921780,
+      921840,
+      921900,
+      921990,
+      922050,
+      922140,
+      922200,
+      922290
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 310,
+    "start": 1666973880,
+    "end": 1666974000,
+    "label": "7.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      922680,
+      922710,
+      922740,
+      922770
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 311,
+    "start": 1666975320,
+    "end": 1666975395,
+    "label": "7.1",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      924120,
+      924150
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 312,
+    "start": 1666975410,
+    "end": 1666975710,
+    "label": "8.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 313,
+    "start": 1666975680,
+    "end": 1666975800,
+    "label": "7.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 314,
+    "start": 1666977180,
+    "end": 1666977240,
+    "label": "7.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 315,
+    "start": 1666977225,
+    "end": 1666977360,
+    "label": "8.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 316,
+    "start": 1666977420,
+    "end": 1666977955,
+    "label": "3.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      926220,
+      926280,
+      926340,
+      926400,
+      926490,
+      926550,
+      926610,
+      926700
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 317,
+    "start": 1666977990,
+    "end": 1666978230,
+    "label": "6.2",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      926790,
+      926820,
+      926850,
+      926880,
+      926910,
+      926940,
+      926970,
+      927000
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 318,
+    "start": 1666978260,
+    "end": 1666978380,
+    "label": "6.3",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      927060,
+      927090,
+      927120,
+      927150
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 319,
+    "start": 1666978410,
+    "end": 1666978590,
+    "label": "6.0",
+    "eligible": true,
+    "role": "selection",
+    "reason": null,
+    "window_start_rows": [
+      927210,
+      927240,
+      927270,
+      927300,
+      927330,
+      927360
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 320,
+    "start": 1667204280,
+    "end": 1667204340,
+    "label": "1.4",
+    "eligible": false,
+    "role": null,
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 321,
+    "start": 1667212170,
+    "end": 1667213370,
+    "label": "2.2",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 322,
+    "start": 1667215380,
+    "end": 1667215420,
+    "label": "2.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 323,
+    "start": 1667215440,
+    "end": 1667216460,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 324,
+    "start": 1667216520,
+    "end": 1667216700,
+    "label": "6.2",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 325,
+    "start": 1667216730,
+    "end": 1667216760,
+    "label": "6.1",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 326,
+    "start": 1667216760,
+    "end": 1667216880,
+    "label": "6.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 327,
+    "start": 1667216940,
+    "end": 1667217065,
+    "label": "6.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 328,
+    "start": 1667217090,
+    "end": 1667217105,
+    "label": "6.5",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 329,
+    "start": 1667217120,
+    "end": 1667217150,
+    "label": "6.7",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 330,
+    "start": 1667217660,
+    "end": 1667217720,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 331,
+    "start": 1667218260,
+    "end": 1667218320,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 332,
+    "start": 1667219670,
+    "end": 1667220630,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 333,
+    "start": 1667222379,
+    "end": 1667222550,
+    "label": "4.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 334,
+    "start": 1667222580,
+    "end": 1667222880,
+    "label": "4.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 335,
+    "start": 1667223540,
+    "end": 1667223690,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 336,
+    "start": 1667224560,
+    "end": 1667224845,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 337,
+    "start": 1667225160,
+    "end": 1667225760,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 338,
+    "start": 1667227320,
+    "end": 1667227560,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 339,
+    "start": 1667227620,
+    "end": 1667228130,
+    "label": "3.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 347,
+    "start": 1667228100,
+    "end": 1667228220,
+    "label": "6.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 340,
+    "start": 1667229300,
+    "end": 1667229360,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 341,
+    "start": 1667229700,
+    "end": 1667229760,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 342,
+    "start": 1667229900,
+    "end": 1667231165,
+    "label": "4.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 343,
+    "start": 1667231070,
+    "end": 1667232300,
+    "label": "3.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 344,
+    "start": 1667233800,
+    "end": 1667233860,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 345,
+    "start": 1667234230,
+    "end": 1667234290,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 346,
+    "start": 1667234490,
+    "end": 1667234670,
+    "label": "2.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 348,
+    "start": 1667235450,
+    "end": 1667235465,
+    "label": "6.1",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 349,
+    "start": 1667235480,
+    "end": 1667235495,
+    "label": "6.5",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 350,
+    "start": 1667235510,
+    "end": 1667235720,
+    "label": "6.3",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 351,
+    "start": 1667235750,
+    "end": 1667235870,
+    "label": "6.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 352,
+    "start": 1667236020,
+    "end": 1667236140,
+    "label": "7.0",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 353,
+    "start": 1667237040,
+    "end": 1667237160,
+    "label": "7.1",
+    "eligible": false,
+    "role": null,
+    "reason": "gap_partial_day_or_partition_crossing",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 354,
+    "start": 1667294640,
+    "end": 1667294700,
+    "label": "1.4",
+    "eligible": false,
+    "role": "assessment",
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 355,
+    "start": 1667296440,
+    "end": 1667296800,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1245240,
+      1245270,
+      1245330,
+      1245360,
+      1245420,
+      1245450,
+      1245510,
+      1245570
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 356,
+    "start": 1667296830,
+    "end": 1667296980,
+    "label": "6.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1245630,
+      1245660,
+      1245690,
+      1245720,
+      1245750
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 357,
+    "start": 1667297010,
+    "end": 1667297100,
+    "label": "6.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1245810,
+      1245840,
+      1245870
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 358,
+    "start": 1667297130,
+    "end": 1667297280,
+    "label": "6.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1245930,
+      1245960,
+      1245990,
+      1246020,
+      1246050
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 359,
+    "start": 1667297400,
+    "end": 1667298120,
+    "label": "2.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1246200,
+      1246290,
+      1246380,
+      1246470,
+      1246590,
+      1246680,
+      1246770,
+      1246890
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 360,
+    "start": 1667298150,
+    "end": 1667298180,
+    "label": "2.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1246950
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 361,
+    "start": 1667299410,
+    "end": 1667299470,
+    "label": "1.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1248210,
+      1248240
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 362,
+    "start": 1667300175,
+    "end": 1667300235,
+    "label": "1.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1248975,
+      1249005
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 363,
+    "start": 1667301000,
+    "end": 1667301040,
+    "label": "2.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1249800
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 364,
+    "start": 1667301780,
+    "end": 1667302200,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1250580,
+      1250610,
+      1250670,
+      1250730,
+      1250790,
+      1250850,
+      1250910,
+      1250970
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 365,
+    "start": 1667303160,
+    "end": 1667303400,
+    "label": "8.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1251960,
+      1251990,
+      1252020,
+      1252050,
+      1252080,
+      1252110,
+      1252140,
+      1252170
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 366,
+    "start": 1667305080,
+    "end": 1667305570,
+    "label": "5.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1253880,
+      1253940,
+      1254000,
+      1254060,
+      1254120,
+      1254180,
+      1254240,
+      1254330
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 367,
+    "start": 1667306040,
+    "end": 1667306670,
+    "label": "2.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1254840,
+      1254900,
+      1254990,
+      1255080,
+      1255170,
+      1255260,
+      1255350,
+      1255440
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 368,
+    "start": 1667306700,
+    "end": 1667306730,
+    "label": "2.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1255500
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 369,
+    "start": 1667307390,
+    "end": 1667310930,
+    "label": "3.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 385,
+    "start": 1667308065,
+    "end": 1667308665,
+    "label": "3.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 370,
+    "start": 1667308290,
+    "end": 1667308470,
+    "label": "6.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 371,
+    "start": 1667308530,
+    "end": 1667308650,
+    "label": "6.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 372,
+    "start": 1667308740,
+    "end": 1667308862,
+    "label": "6.3",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 373,
+    "start": 1667308890,
+    "end": 1667308920,
+    "label": "6.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 374,
+    "start": 1667308950,
+    "end": 1667308980,
+    "label": "6.5",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 375,
+    "start": 1667309100,
+    "end": 1667309160,
+    "label": "1.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 376,
+    "start": 1667310180,
+    "end": 1667310240,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 377,
+    "start": 1667310300,
+    "end": 1667310420,
+    "label": "7.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 378,
+    "start": 1667313120,
+    "end": 1667313240,
+    "label": "7.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 379,
+    "start": 1667313180,
+    "end": 1667313465,
+    "label": "8.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 380,
+    "start": 1667313840,
+    "end": 1667314150,
+    "label": "4.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1262640,
+      1262670,
+      1262700,
+      1262730,
+      1262790,
+      1262820,
+      1262850,
+      1262910
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 381,
+    "start": 1667314590,
+    "end": 1667314650,
+    "label": "1.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1263390,
+      1263420
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 382,
+    "start": 1667314650,
+    "end": 1667314710,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 383,
+    "start": 1667314680,
+    "end": 1667314990,
+    "label": "4.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 384,
+    "start": 1667314995,
+    "end": 1667315235,
+    "label": "2.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1263795,
+      1263825,
+      1263855,
+      1263885,
+      1263915,
+      1263945,
+      1263975,
+      1264005
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 386,
+    "start": 1667316180,
+    "end": 1667316370,
+    "label": "8.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1264980,
+      1265010,
+      1265040,
+      1265070,
+      1265100,
+      1265130
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 387,
+    "start": 1667317080,
+    "end": 1667317140,
+    "label": "1.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1265880,
+      1265910
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 388,
+    "start": 1667317940,
+    "end": 1667318000,
+    "label": "1.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1266740,
+      1266770
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 389,
+    "start": 1667320020,
+    "end": 1667320380,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1268820,
+      1268850,
+      1268910,
+      1268940,
+      1269000,
+      1269030,
+      1269090,
+      1269150
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 390,
+    "start": 1667322360,
+    "end": 1667323540,
+    "label": "4.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1271160,
+      1271310,
+      1271460,
+      1271640,
+      1271790,
+      1271970,
+      1272120,
+      1272300
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 391,
+    "start": 1667323650,
+    "end": 1667324070,
+    "label": "4.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1272450,
+      1272480,
+      1272540,
+      1272600,
+      1272660,
+      1272720,
+      1272780,
+      1272840
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 392,
+    "start": 1667324880,
+    "end": 1667324940,
+    "label": "1.5",
+    "eligible": false,
+    "role": "assessment",
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 393,
+    "start": 1667379600,
+    "end": 1667380470,
+    "label": "2.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1328400,
+      1328520,
+      1328640,
+      1328760,
+      1328880,
+      1329000,
+      1329120,
+      1329240
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 394,
+    "start": 1667380500,
+    "end": 1667380560,
+    "label": "2.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1329300,
+      1329330
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 395,
+    "start": 1667380740,
+    "end": 1667381280,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1329540,
+      1329600,
+      1329660,
+      1329750,
+      1329810,
+      1329900,
+      1329960,
+      1330050
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 396,
+    "start": 1667381340,
+    "end": 1667381535,
+    "label": "2.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1330140,
+      1330170,
+      1330200,
+      1330230,
+      1330260,
+      1330290
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 399,
+    "start": 1667381580,
+    "end": 1667381700,
+    "label": "6.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1330380,
+      1330410,
+      1330440,
+      1330470
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 397,
+    "start": 1667381740,
+    "end": 1667381920,
+    "label": "6.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1330540,
+      1330570,
+      1330600,
+      1330630,
+      1330660,
+      1330690
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 398,
+    "start": 1667381940,
+    "end": 1667382120,
+    "label": "6.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1330740,
+      1330770,
+      1330800,
+      1330830,
+      1330860,
+      1330890
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 400,
+    "start": 1667382270,
+    "end": 1667382285,
+    "label": "6.1",
+    "eligible": false,
+    "role": "assessment",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 401,
+    "start": 1667382300,
+    "end": 1667382315,
+    "label": "6.5",
+    "eligible": false,
+    "role": "assessment",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 402,
+    "start": 1667382750,
+    "end": 1667382780,
+    "label": "2.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1331550
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 403,
+    "start": 1667384670,
+    "end": 1667384730,
+    "label": "1.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1333470,
+      1333500
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 404,
+    "start": 1667385930,
+    "end": 1667385990,
+    "label": "1.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1334730,
+      1334760
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 405,
+    "start": 1667386050,
+    "end": 1667386322,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1334850,
+      1334880,
+      1334910,
+      1334940,
+      1334970,
+      1335000,
+      1335030,
+      1335090
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 406,
+    "start": 1667395530,
+    "end": 1667395770,
+    "label": "4.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1344330,
+      1344360,
+      1344390,
+      1344420,
+      1344450,
+      1344480,
+      1344510,
+      1344540
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 407,
+    "start": 1667395800,
+    "end": 1667396080,
+    "label": "4.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1344600,
+      1344630,
+      1344660,
+      1344690,
+      1344720,
+      1344750,
+      1344780,
+      1344840
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 408,
+    "start": 1667396130,
+    "end": 1667396340,
+    "label": "4.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1344930,
+      1344960,
+      1344990,
+      1345020,
+      1345050,
+      1345080,
+      1345110
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 409,
+    "start": 1667402040,
+    "end": 1667402100,
+    "label": "1.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1350840,
+      1350870
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 410,
+    "start": 1667403135,
+    "end": 1667403195,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 411,
+    "start": 1667403180,
+    "end": 1667403300,
+    "label": "7.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 412,
+    "start": 1667406780,
+    "end": 1667406900,
+    "label": "7.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1355580,
+      1355610,
+      1355640,
+      1355670
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 413,
+    "start": 1667407575,
+    "end": 1667407815,
+    "label": "4.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1356375,
+      1356405,
+      1356435,
+      1356465,
+      1356495,
+      1356525,
+      1356555,
+      1356585
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 414,
+    "start": 1667407890,
+    "end": 1667408130,
+    "label": "2.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1356690,
+      1356720,
+      1356750,
+      1356780,
+      1356810,
+      1356840,
+      1356870,
+      1356900
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 415,
+    "start": 1667466360,
+    "end": 1667466420,
+    "label": "1.4",
+    "eligible": false,
+    "role": "assessment",
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 416,
+    "start": 1667466660,
+    "end": 1667467500,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1415460,
+      1415550,
+      1415670,
+      1415790,
+      1415910,
+      1416030,
+      1416150,
+      1416270
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 417,
+    "start": 1667467560,
+    "end": 1667468400,
+    "label": "2.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1416360,
+      1416450,
+      1416570,
+      1416690,
+      1416810,
+      1416930,
+      1417050,
+      1417170
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 418,
+    "start": 1667469480,
+    "end": 1667469510,
+    "label": "2.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1418280
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 419,
+    "start": 1667470200,
+    "end": 1667470800,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1419000,
+      1419060,
+      1419150,
+      1419240,
+      1419300,
+      1419390,
+      1419480,
+      1419570
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 420,
+    "start": 1667470830,
+    "end": 1667470860,
+    "label": "2.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1419630
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 421,
+    "start": 1667473020,
+    "end": 1667473290,
+    "label": "8.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1421820,
+      1421850,
+      1421880,
+      1421910,
+      1421940,
+      1421970,
+      1422000,
+      1422060
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 422,
+    "start": 1667473320,
+    "end": 1667474280,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1422120,
+      1422240,
+      1422360,
+      1422510,
+      1422630,
+      1422780,
+      1422900,
+      1423050
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 423,
+    "start": 1667475570,
+    "end": 1667476290,
+    "label": "2.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1424370,
+      1424460,
+      1424550,
+      1424640,
+      1424760,
+      1424850,
+      1424940,
+      1425060
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 424,
+    "start": 1667476380,
+    "end": 1667476410,
+    "label": "2.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1425180
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 425,
+    "start": 1667478900,
+    "end": 1667478930,
+    "label": "2.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1427700
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 426,
+    "start": 1667480340,
+    "end": 1667480520,
+    "label": "6.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1429140,
+      1429170,
+      1429200,
+      1429230,
+      1429260,
+      1429290
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 427,
+    "start": 1667480550,
+    "end": 1667480700,
+    "label": "6.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1429350,
+      1429380,
+      1429410,
+      1429440,
+      1429470
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 428,
+    "start": 1667480730,
+    "end": 1667480880,
+    "label": "6.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1429530,
+      1429560,
+      1429590,
+      1429620,
+      1429650
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 429,
+    "start": 1667480910,
+    "end": 1667480925,
+    "label": "6.1",
+    "eligible": false,
+    "role": "assessment",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 430,
+    "start": 1667480940,
+    "end": 1667480955,
+    "label": "6.5",
+    "eligible": false,
+    "role": "assessment",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 431,
+    "start": 1667481000,
+    "end": 1667481060,
+    "label": "1.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1429800,
+      1429830
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 432,
+    "start": 1667482490,
+    "end": 1667482550,
+    "label": "1.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1431290,
+      1431320
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 433,
+    "start": 1667482560,
+    "end": 1667482680,
+    "label": "7.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1431360,
+      1431390,
+      1431420,
+      1431450
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 434,
+    "start": 1667485560,
+    "end": 1667485680,
+    "label": "7.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 435,
+    "start": 1667485590,
+    "end": 1667485830,
+    "label": "4.3",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 436,
+    "start": 1667485860,
+    "end": 1667486450,
+    "label": "4.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1434660,
+      1434720,
+      1434810,
+      1434870,
+      1434960,
+      1435020,
+      1435110,
+      1435200
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 437,
+    "start": 1667487810,
+    "end": 1667487870,
+    "label": "1.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1436610,
+      1436640
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 438,
+    "start": 1667488860,
+    "end": 1667488920,
+    "label": "1.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1437660,
+      1437690
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 439,
+    "start": 1667488920,
+    "end": 1667489085,
+    "label": "8.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1437720,
+      1437750,
+      1437780,
+      1437810,
+      1437840
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 440,
+    "start": 1667489655,
+    "end": 1667490240,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1438455,
+      1438515,
+      1438605,
+      1438665,
+      1438755,
+      1438815,
+      1438905,
+      1438995
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 441,
+    "start": 1667492460,
+    "end": 1667493000,
+    "label": "5.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1441260,
+      1441320,
+      1441380,
+      1441470,
+      1441530,
+      1441620,
+      1441680,
+      1441770
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 442,
+    "start": 1667493300,
+    "end": 1667493540,
+    "label": "4.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1442100,
+      1442130,
+      1442160,
+      1442190,
+      1442220,
+      1442250,
+      1442280,
+      1442310
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 443,
+    "start": 1667493600,
+    "end": 1667494760,
+    "label": "4.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1442400,
+      1442550,
+      1442700,
+      1442850,
+      1443030,
+      1443180,
+      1443330,
+      1443510
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 444,
+    "start": 1667494800,
+    "end": 1667495100,
+    "label": "4.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1443600,
+      1443630,
+      1443660,
+      1443690,
+      1443750,
+      1443780,
+      1443810,
+      1443870
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 445,
+    "start": 1667497380,
+    "end": 1667497440,
+    "label": "1.5",
+    "eligible": false,
+    "role": "assessment",
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 446,
+    "start": 1667549910,
+    "end": 1667549970,
+    "label": "1.4",
+    "eligible": false,
+    "role": "assessment",
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 447,
+    "start": 1667550120,
+    "end": 1667550810,
+    "label": "2.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1498920,
+      1499010,
+      1499100,
+      1499190,
+      1499280,
+      1499370,
+      1499460,
+      1499580
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 448,
+    "start": 1667551155,
+    "end": 1667551215,
+    "label": "2.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1499955,
+      1499985
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 449,
+    "start": 1667551260,
+    "end": 1667552160,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1500060,
+      1500180,
+      1500300,
+      1500420,
+      1500540,
+      1500660,
+      1500780,
+      1500930
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 450,
+    "start": 1667552670,
+    "end": 1667552880,
+    "label": "6.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1501470,
+      1501500,
+      1501530,
+      1501560,
+      1501590,
+      1501620,
+      1501650
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 451,
+    "start": 1667552910,
+    "end": 1667553120,
+    "label": "6.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1501710,
+      1501740,
+      1501770,
+      1501800,
+      1501830,
+      1501860,
+      1501890
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 452,
+    "start": 1667553180,
+    "end": 1667553300,
+    "label": "6.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1501980,
+      1502010,
+      1502040,
+      1502070
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 453,
+    "start": 1667554980,
+    "end": 1667555040,
+    "label": "1.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1503780,
+      1503810
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 454,
+    "start": 1667556660,
+    "end": 1667556720,
+    "label": "1.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1505460,
+      1505490
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 455,
+    "start": 1667556720,
+    "end": 1667557320,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1505520,
+      1505580,
+      1505670,
+      1505760,
+      1505820,
+      1505910,
+      1506000,
+      1506090
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 456,
+    "start": 1667557380,
+    "end": 1667557560,
+    "label": "6.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1506180,
+      1506210,
+      1506240,
+      1506270,
+      1506300,
+      1506330
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 457,
+    "start": 1667557590,
+    "end": 1667557610,
+    "label": "6.1",
+    "eligible": false,
+    "role": "assessment",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 460,
+    "start": 1667557610,
+    "end": 1667557625,
+    "label": "6.5",
+    "eligible": false,
+    "role": "assessment",
+    "reason": "shorter_than_window",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 458,
+    "start": 1667557650,
+    "end": 1667557803,
+    "label": "6.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1506450,
+      1506480,
+      1506510,
+      1506540,
+      1506570
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 459,
+    "start": 1667557830,
+    "end": 1667557980,
+    "label": "6.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1506630,
+      1506660,
+      1506690,
+      1506720,
+      1506750
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 461,
+    "start": 1667558100,
+    "end": 1667558300,
+    "label": "8.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1506900,
+      1506930,
+      1506960,
+      1506990,
+      1507020,
+      1507050
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 462,
+    "start": 1667560620,
+    "end": 1667561400,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1509420,
+      1509510,
+      1509630,
+      1509720,
+      1509840,
+      1509930,
+      1510050,
+      1510170
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 463,
+    "start": 1667563080,
+    "end": 1667563200,
+    "label": "7.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1511880,
+      1511910,
+      1511940,
+      1511970
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 464,
+    "start": 1667566830,
+    "end": 1667566950,
+    "label": "7.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1515630,
+      1515660,
+      1515690,
+      1515720
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 465,
+    "start": 1667567010,
+    "end": 1667567970,
+    "label": "2.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1515810,
+      1515930,
+      1516050,
+      1516200,
+      1516320,
+      1516470,
+      1516590,
+      1516740
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 466,
+    "start": 1667567970,
+    "end": 1667568030,
+    "label": "2.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1516770,
+      1516800
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 467,
+    "start": 1667568060,
+    "end": 1667568600,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1516860,
+      1516920,
+      1516980,
+      1517070,
+      1517130,
+      1517220,
+      1517280,
+      1517370
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 468,
+    "start": 1667568630,
+    "end": 1667569080,
+    "label": "5.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1517430,
+      1517490,
+      1517550,
+      1517610,
+      1517670,
+      1517730,
+      1517790,
+      1517850
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 469,
+    "start": 1667569800,
+    "end": 1667570085,
+    "label": "4.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1518600,
+      1518630,
+      1518660,
+      1518690,
+      1518720,
+      1518750,
+      1518780,
+      1518840
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 470,
+    "start": 1667570100,
+    "end": 1667571960,
+    "label": "4.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1518900,
+      1519140,
+      1519410,
+      1519680,
+      1519920,
+      1520190,
+      1520460,
+      1520730
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 471,
+    "start": 1667573820,
+    "end": 1667574000,
+    "label": "8.1",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1522620,
+      1522650,
+      1522680,
+      1522710,
+      1522740,
+      1522770
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 472,
+    "start": 1667574120,
+    "end": 1667574180,
+    "label": "1.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1522920,
+      1522950
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 473,
+    "start": 1667575380,
+    "end": 1667575440,
+    "label": "1.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1524180,
+      1524210
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 474,
+    "start": 1667575470,
+    "end": 1667575740,
+    "label": "2.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1524270,
+      1524300,
+      1524330,
+      1524360,
+      1524390,
+      1524420,
+      1524450,
+      1524510
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 475,
+    "start": 1667576100,
+    "end": 1667576760,
+    "label": "3.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1524900,
+      1524990,
+      1525080,
+      1525170,
+      1525260,
+      1525350,
+      1525440,
+      1525530
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 476,
+    "start": 1667577090,
+    "end": 1667577300,
+    "label": "6.2",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1525890,
+      1525920,
+      1525950,
+      1525980,
+      1526010,
+      1526040,
+      1526070
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 477,
+    "start": 1667577330,
+    "end": 1667577540,
+    "label": "6.0",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1526130,
+      1526160,
+      1526190,
+      1526220,
+      1526250,
+      1526280,
+      1526310
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 478,
+    "start": 1667577600,
+    "end": 1667577900,
+    "label": "6.3",
+    "eligible": true,
+    "role": "assessment",
+    "reason": null,
+    "window_start_rows": [
+      1526400,
+      1526430,
+      1526460,
+      1526490,
+      1526550,
+      1526580,
+      1526610,
+      1526670
+    ],
+    "observability_reviewed": false
+  },
+  {
+    "row": 483,
+    "start": 1667808120,
+    "end": 1667809620,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 480,
+    "start": 1667809860,
+    "end": 1667810550,
+    "label": "2.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 481,
+    "start": 1667810610,
+    "end": 1667811030,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 482,
+    "start": 1667811090,
+    "end": 1667811180,
+    "label": "2.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 479,
+    "start": 1667811420,
+    "end": 1667811480,
+    "label": "1.4",
+    "eligible": false,
+    "role": null,
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 484,
+    "start": 1667813280,
+    "end": 1667813310,
+    "label": "2.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 485,
+    "start": 1667814540,
+    "end": 1667814600,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 486,
+    "start": 1667816160,
+    "end": 1667816220,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 487,
+    "start": 1667817930,
+    "end": 1667819310,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 488,
+    "start": 1667819520,
+    "end": 1667819880,
+    "label": "6.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 489,
+    "start": 1667819910,
+    "end": 1667820185,
+    "label": "6.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 490,
+    "start": 1667820210,
+    "end": 1667820420,
+    "label": "6.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 491,
+    "start": 1667820450,
+    "end": 1667820465,
+    "label": "6.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 492,
+    "start": 1667820900,
+    "end": 1667821080,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 493,
+    "start": 1667821320,
+    "end": 1667821920,
+    "label": "5.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 494,
+    "start": 1667822910,
+    "end": 1667823540,
+    "label": "2.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 495,
+    "start": 1667823615,
+    "end": 1667823630,
+    "label": "2.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 496,
+    "start": 1667825520,
+    "end": 1667825580,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 497,
+    "start": 1667825970,
+    "end": 1667826030,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 498,
+    "start": 1667826240,
+    "end": 1667826360,
+    "label": "7.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 499,
+    "start": 1667828060,
+    "end": 1667828180,
+    "label": "7.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 500,
+    "start": 1667828310,
+    "end": 1667829000,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 501,
+    "start": 1667829030,
+    "end": 1667829090,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 502,
+    "start": 1667829645,
+    "end": 1667829705,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 503,
+    "start": 1667829720,
+    "end": 1667830005,
+    "label": "4.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 504,
+    "start": 1667830050,
+    "end": 1667831850,
+    "label": "4.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 505,
+    "start": 1667832540,
+    "end": 1667832810,
+    "label": "4.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 506,
+    "start": 1667833260,
+    "end": 1667834370,
+    "label": "3.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 507,
+    "start": 1667834320,
+    "end": 1667834560,
+    "label": "8.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 508,
+    "start": 1667836740,
+    "end": 1667836800,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 509,
+    "start": 1667837760,
+    "end": 1667837820,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 510,
+    "start": 1667838750,
+    "end": 1667839810,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 511,
+    "start": 1667839840,
+    "end": 1667840000,
+    "label": "2.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 512,
+    "start": 1668421680,
+    "end": 1668421740,
+    "label": "1.4",
+    "eligible": false,
+    "role": null,
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 513,
+    "start": 1668423360,
+    "end": 1668424260,
+    "label": "2.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 514,
+    "start": 1668424305,
+    "end": 1668424320,
+    "label": "2.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 515,
+    "start": 1668424380,
+    "end": 1668425280,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 516,
+    "start": 1668426510,
+    "end": 1668426555,
+    "label": "2.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 517,
+    "start": 1668427440,
+    "end": 1668428100,
+    "label": "0.0",
+    "eligible": false,
+    "role": null,
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 518,
+    "start": 1668428640,
+    "end": 1668428835,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 519,
+    "start": 1668428910,
+    "end": 1668429030,
+    "label": "7.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 520,
+    "start": 1668431340,
+    "end": 1668431460,
+    "label": "7.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 521,
+    "start": 1668431370,
+    "end": 1668431670,
+    "label": "8.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 522,
+    "start": 1668431880,
+    "end": 1668431940,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 523,
+    "start": 1668433410,
+    "end": 1668433470,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 524,
+    "start": 1668433860,
+    "end": 1668434050,
+    "label": "4.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 526,
+    "start": 1668438750,
+    "end": 1668439440,
+    "label": "2.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 527,
+    "start": 1668439470,
+    "end": 1668439500,
+    "label": "2.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 525,
+    "start": 1668441300,
+    "end": 1668443130,
+    "label": "4.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 528,
+    "start": 1668441360,
+    "end": 1668441420,
+    "label": "1.2",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 529,
+    "start": 1668442365,
+    "end": 1668442425,
+    "label": "1.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 530,
+    "start": 1668442410,
+    "end": 1668442740,
+    "label": "3.0",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 531,
+    "start": 1668444290,
+    "end": 1668444450,
+    "label": "2.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 532,
+    "start": 1668445080,
+    "end": 1668445730,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 533,
+    "start": 1668501960,
+    "end": 1668502020,
+    "label": "1.4",
+    "eligible": false,
+    "role": null,
+    "reason": "undefined_activity_id",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 534,
+    "start": 1668502200,
+    "end": 1668503100,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 535,
+    "start": 1668504900,
+    "end": 1668506040,
+    "label": "2.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 536,
+    "start": 1668506280,
+    "end": 1668507000,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 537,
+    "start": 1668507720,
+    "end": 1668507960,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 538,
+    "start": 1668508020,
+    "end": 1668508050,
+    "label": "2.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 539,
+    "start": 1668511920,
+    "end": 1668512190,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 540,
+    "start": 1668512220,
+    "end": 1668512880,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 541,
+    "start": 1668518400,
+    "end": 1668519000,
+    "label": "2.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 542,
+    "start": 1668519300,
+    "end": 1668519330,
+    "label": "2.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 543,
+    "start": 1668519660,
+    "end": 1668520380,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 544,
+    "start": 1668520410,
+    "end": 1668520470,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 545,
+    "start": 1668521625,
+    "end": 1668521685,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 546,
+    "start": 1668522780,
+    "end": 1668523050,
+    "label": "4.3",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 547,
+    "start": 1668523020,
+    "end": 1668523260,
+    "label": "4.3",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 548,
+    "start": 1668523320,
+    "end": 1668525105,
+    "label": "4.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 549,
+    "start": 1668526560,
+    "end": 1668526920,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 550,
+    "start": 1668526950,
+    "end": 1668527255,
+    "label": "4.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 551,
+    "start": 1668527280,
+    "end": 1668527480,
+    "label": "2.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 552,
+    "start": 1668527700,
+    "end": 1668527820,
+    "label": "7.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 553,
+    "start": 1668530640,
+    "end": 1668530760,
+    "label": "7.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 554,
+    "start": 1668530700,
+    "end": 1668530930,
+    "label": "8.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 555,
+    "start": 1668532110,
+    "end": 1668532830,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 556,
+    "start": 1668533280,
+    "end": 1668533340,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 557,
+    "start": 1668533340,
+    "end": 1668533400,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 558,
+    "start": 1668533400,
+    "end": 1668533460,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 559,
+    "start": 1668533460,
+    "end": 1668533520,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 560,
+    "start": 1668533520,
+    "end": 1668533580,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 561,
+    "start": 1668533580,
+    "end": 1668533640,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 562,
+    "start": 1668589140,
+    "end": 1668589410,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 563,
+    "start": 1668589440,
+    "end": 1668591000,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 564,
+    "start": 1668591360,
+    "end": 1668591990,
+    "label": "2.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 565,
+    "start": 1668592020,
+    "end": 1668592100,
+    "label": "2.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 566,
+    "start": 1668592710,
+    "end": 1668593190,
+    "label": "6.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 567,
+    "start": 1668593220,
+    "end": 1668593340,
+    "label": "6.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 568,
+    "start": 1668593370,
+    "end": 1668593730,
+    "label": "6.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 569,
+    "start": 1668593760,
+    "end": 1668594210,
+    "label": "6.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 570,
+    "start": 1668594240,
+    "end": 1668594465,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 571,
+    "start": 1668594495,
+    "end": 1668594515,
+    "label": "2.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 572,
+    "start": 1668597390,
+    "end": 1668597640,
+    "label": "4.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 573,
+    "start": 1668597720,
+    "end": 1668597965,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 574,
+    "start": 1668597990,
+    "end": 1668598360,
+    "label": "4.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 575,
+    "start": 1668598560,
+    "end": 1668600300,
+    "label": "4.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 576,
+    "start": 1668602820,
+    "end": 1668603015,
+    "label": "8.1",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 577,
+    "start": 1668603540,
+    "end": 1668603660,
+    "label": "7.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 578,
+    "start": 1668606910,
+    "end": 1668607030,
+    "label": "7.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 579,
+    "start": 1668606960,
+    "end": 1668607200,
+    "label": "8.1",
+    "eligible": false,
+    "reason": "overlap_component"
+  },
+  {
+    "row": 580,
+    "start": 1668607350,
+    "end": 1668607920,
+    "label": "6.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 581,
+    "start": 1668608070,
+    "end": 1668608190,
+    "label": "6.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 582,
+    "start": 1668608280,
+    "end": 1668608430,
+    "label": "6.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 583,
+    "start": 1668609000,
+    "end": 1668609060,
+    "label": "1.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 584,
+    "start": 1668610360,
+    "end": 1668610420,
+    "label": "1.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 585,
+    "start": 1668610720,
+    "end": 1668610930,
+    "label": "2.3",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 586,
+    "start": 1668611550,
+    "end": 1668612270,
+    "label": "3.0",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  },
+  {
+    "row": 587,
+    "start": 1668613140,
+    "end": 1668613685,
+    "label": "5.2",
+    "eligible": false,
+    "role": null,
+    "reason": "outside_training_support",
+    "window_start_rows": [],
+    "observability_reviewed": false
+  }
+]

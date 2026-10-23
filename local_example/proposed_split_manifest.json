@@ -1,0 +1,31 @@
+{
+  "complete_days": 18,
+  "cutoffs": [
+    "2022-10-28 00:00:00",
+    "2022-11-01 00:00:00"
+  ],
+  "gap_days": [
+    "2022-10-27 00:00:00",
+    "2022-10-31 00:00:00"
+  ],
+  "roles": {
+    "fit": {
+      "start": "2022-10-18 00:00:00",
+      "end_exclusive": "2022-10-27 00:00:00"
+    },
+    "selection": {
+      "start": "2022-10-28 00:00:00",
+      "end_exclusive": "2022-10-31 00:00:00"
+    },
+    "assessment": {
+      "start": "2022-11-01 00:00:00",
+      "end_exclusive": "2022-11-05 00:00:00"
+    }
+  },
+  "timestamp_arithmetic": "naive source clock; timezone equivalence not inferred",
+  "input_start": "2022-10-18 00:00:00",
+  "input_end_exclusive": "2022-11-05 21:36:00",
+  "input_manifest_sha256": "a33175f859178a61292dd49ce3d62f70fbfac604a3c3c292c5a41962bd35c296",
+  "window_rows": 30,
+  "max_windows_per_episode": 8
+}

@@ -1,0 +1,408 @@
+{
+  "1.0": {
+    "name": "Entering House w/ mobile phone",
+    "dictionary_CU_CyPhy_ids": [
+      6,
+      138,
+      139,
+      77,
+      74,
+      71
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.smartthings_contact_sensor_pid_006_contact",
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_071_temperature",
+      "sensor.aqara_temperature_and_humidity_pid_074_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "1.1": {
+    "name": "Entering House w/o mobile phone (either zero battery or no phone)",
+    "dictionary_CU_CyPhy_ids": [
+      6,
+      138,
+      139,
+      77,
+      74,
+      71
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.smartthings_contact_sensor_pid_006_contact",
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_071_temperature",
+      "sensor.aqara_temperature_and_humidity_pid_074_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "1.2": {
+    "name": "Leaving house w/ mobile phone",
+    "dictionary_CU_CyPhy_ids": [
+      6,
+      138,
+      139,
+      77,
+      74,
+      71
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.smartthings_contact_sensor_pid_006_contact",
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_071_temperature",
+      "sensor.aqara_temperature_and_humidity_pid_074_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "1.3": {
+    "name": "Leaving house w/o mobile phone",
+    "dictionary_CU_CyPhy_ids": [
+      6,
+      138,
+      139,
+      77,
+      74,
+      71
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.smartthings_contact_sensor_pid_006_contact",
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_071_temperature",
+      "sensor.aqara_temperature_and_humidity_pid_074_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "2.0": {
+    "name": "Making Coffee w/ milk",
+    "dictionary_CU_CyPhy_ids": [
+      138,
+      77,
+      114,
+      107,
+      3
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.smartthings_contact_sensor_pid_003_contact",
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "2.1": {
+    "name": "Making Coffee w/o milk",
+    "dictionary_CU_CyPhy_ids": [
+      138,
+      77,
+      114,
+      107
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "2.2": {
+    "name": "Making Coffee after regular maintenance",
+    "dictionary_CU_CyPhy_ids": [
+      138,
+      77,
+      114,
+      107,
+      3
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.smartthings_contact_sensor_pid_003_contact",
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "2.3": {
+    "name": "Making tea using smart kettle",
+    "dictionary_CU_CyPhy_ids": [
+      109,
+      138,
+      77,
+      71,
+      107
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_071_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "3.0": {
+    "name": "Watching TV",
+    "dictionary_CU_CyPhy_ids": [
+      139,
+      -1,
+      13
+    ],
+    "candidate_pid_channels": [],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "4.0": {
+    "name": "Dinning (food from fridge)",
+    "dictionary_CU_CyPhy_ids": [
+      4,
+      3,
+      138,
+      77,
+      71,
+      107
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.smartthings_contact_sensor_pid_004_contact",
+      "binary_sensor.smartthings_contact_sensor_pid_003_contact",
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_071_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "4.1": {
+    "name": "Dinning (fresh from outside with using oven)",
+    "dictionary_CU_CyPhy_ids": [
+      4,
+      138,
+      77,
+      71,
+      107
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.smartthings_contact_sensor_pid_004_contact",
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_071_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "4.2": {
+    "name": "Dinning (fresh from outside without using oven)",
+    "dictionary_CU_CyPhy_ids": [
+      138,
+      77,
+      71,
+      107
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_071_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "4.3": {
+    "name": "Dinning (from the fridge without heating: e.g. fruit)",
+    "dictionary_CU_CyPhy_ids": [
+      3,
+      138,
+      77,
+      71,
+      107
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.smartthings_contact_sensor_pid_003_contact",
+      "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_071_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "5.0": {
+    "name": "Taking shower in morning (if allowed)",
+    "dictionary_CU_CyPhy_ids": [
+      73,
+      78,
+      84,
+      94
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.vibration_sensor_pid_078_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_073_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "5.1": {
+    "name": "Taking shower before bed (if allowed)",
+    "dictionary_CU_CyPhy_ids": [
+      73,
+      78,
+      84,
+      94,
+      72,
+      136,
+      79
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.xiaomi_contact_sensor_pid_136_contact",
+      "binary_sensor.vibration_sensor_pid_078_vibration",
+      "binary_sensor.aqara_vibration_sensor_pid_079_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_072_temperature",
+      "sensor.aqara_temperature_and_humidity_pid_073_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "5.2": {
+    "name": "Taking shower post outdoor workout (if allowed)",
+    "dictionary_CU_CyPhy_ids": [
+      73,
+      78,
+      84,
+      94,
+      72,
+      136,
+      79
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.xiaomi_contact_sensor_pid_136_contact",
+      "binary_sensor.vibration_sensor_pid_078_vibration",
+      "binary_sensor.aqara_vibration_sensor_pid_079_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_072_temperature",
+      "sensor.aqara_temperature_and_humidity_pid_073_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "6.0": {
+    "name": "Play Music (Voice Assistant)",
+    "dictionary_CU_CyPhy_ids": [
+      13
+    ],
+    "candidate_pid_channels": [],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "6.1": {
+    "name": "Weather Update (Voice Assistant)",
+    "dictionary_CU_CyPhy_ids": [
+      13
+    ],
+    "candidate_pid_channels": [],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "6.2": {
+    "name": "News Update (Voice Assistant)",
+    "dictionary_CU_CyPhy_ids": [
+      13
+    ],
+    "candidate_pid_channels": [],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "6.3": {
+    "name": "Radio (Voice Assistant)",
+    "dictionary_CU_CyPhy_ids": [
+      13
+    ],
+    "candidate_pid_channels": [],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "6.4": {
+    "name": "Update a shopping list (Voice Assistant)",
+    "dictionary_CU_CyPhy_ids": [
+      13
+    ],
+    "candidate_pid_channels": [],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "6.5": {
+    "name": "Get shopping list (Voice Assistant)",
+    "dictionary_CU_CyPhy_ids": [
+      13
+    ],
+    "candidate_pid_channels": [],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "6.6": {
+    "name": "Turn on lights (Voice Assistant)",
+    "dictionary_CU_CyPhy_ids": [
+      13
+    ],
+    "candidate_pid_channels": [],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "6.7": {
+    "name": "Setup alarm (Voice Assistant)",
+    "dictionary_CU_CyPhy_ids": [
+      13
+    ],
+    "candidate_pid_channels": [],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "7.0": {
+    "name": "Going to bed",
+    "dictionary_CU_CyPhy_ids": [
+      136,
+      72,
+      79,
+      78,
+      62,
+      125,
+      17
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.xiaomi_contact_sensor_pid_136_contact",
+      "binary_sensor.vibration_sensor_pid_078_vibration",
+      "binary_sensor.aqara_vibration_sensor_pid_079_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_072_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "7.1": {
+    "name": "Waking up from bed",
+    "dictionary_CU_CyPhy_ids": [
+      136,
+      72,
+      79,
+      78,
+      62,
+      125,
+      17
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.xiaomi_contact_sensor_pid_136_contact",
+      "binary_sensor.vibration_sensor_pid_078_vibration",
+      "binary_sensor.aqara_vibration_sensor_pid_079_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_072_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "8.0": {
+    "name": "Using toilet for urination (not allowed)",
+    "dictionary_CU_CyPhy_ids": [
+      73,
+      78,
+      84,
+      94,
+      72,
+      136,
+      79
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.xiaomi_contact_sensor_pid_136_contact",
+      "binary_sensor.vibration_sensor_pid_078_vibration",
+      "binary_sensor.aqara_vibration_sensor_pid_079_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_072_temperature",
+      "sensor.aqara_temperature_and_humidity_pid_073_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "8.1": {
+    "name": "Using toilet for brush",
+    "dictionary_CU_CyPhy_ids": [
+      73,
+      78,
+      84,
+      94,
+      72,
+      136,
+      79
+    ],
+    "candidate_pid_channels": [
+      "binary_sensor.xiaomi_contact_sensor_pid_136_contact",
+      "binary_sensor.vibration_sensor_pid_078_vibration",
+      "binary_sensor.aqara_vibration_sensor_pid_079_vibration",
+      "sensor.aqara_temperature_and_humidity_pid_072_temperature",
+      "sensor.aqara_temperature_and_humidity_pid_073_temperature"
+    ],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  },
+  "9.0": {
+    "name": "Initializing Cleaning robot to clean the living area",
+    "dictionary_CU_CyPhy_ids": [],
+    "candidate_pid_channels": [],
+    "status": "REVIEW_REQUIRED; missing lexical match does not establish absence"
+  }
+}

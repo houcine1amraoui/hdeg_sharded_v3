@@ -1,0 +1,898 @@
+{
+  "-1.0": {
+    "name": null,
+    "roles": {
+      "fit": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "0.0": {
+    "name": null,
+    "roles": {
+      "fit": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "1.0": {
+    "name": "Entering House w/ mobile phone",
+    "roles": {
+      "fit": {
+        "episodes": 51,
+        "days": [
+          "2022-10-20",
+          "2022-10-21",
+          "2022-10-24",
+          "2022-10-25",
+          "2022-10-26"
+        ],
+        "num_days": 5,
+        "windows": 102
+      },
+      "selection": {
+        "episodes": 14,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 28
+      },
+      "assessment": {
+        "episodes": 7,
+        "days": [
+          "2022-11-01",
+          "2022-11-02",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 4,
+        "windows": 14
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "1.1": {
+    "name": "Entering House w/o mobile phone (either zero battery or no phone)",
+    "roles": {
+      "fit": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "1.2": {
+    "name": "Leaving house w/ mobile phone",
+    "roles": {
+      "fit": {
+        "episodes": 51,
+        "days": [
+          "2022-10-20",
+          "2022-10-21",
+          "2022-10-24",
+          "2022-10-25",
+          "2022-10-26"
+        ],
+        "num_days": 5,
+        "windows": 102
+      },
+      "selection": {
+        "episodes": 13,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 26
+      },
+      "assessment": {
+        "episodes": 9,
+        "days": [
+          "2022-11-01",
+          "2022-11-02",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 4,
+        "windows": 18
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "1.3": {
+    "name": "Leaving house w/o mobile phone",
+    "roles": {
+      "fit": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "1.4": {
+    "name": null,
+    "roles": {
+      "fit": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "1.5": {
+    "name": null,
+    "roles": {
+      "fit": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "2.0": {
+    "name": "Making Coffee w/ milk",
+    "roles": {
+      "fit": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "selection": {
+        "episodes": 1,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 2
+      },
+      "assessment": {
+        "episodes": 1,
+        "days": [
+          "2022-11-01"
+        ],
+        "num_days": 1,
+        "windows": 1
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "2.1": {
+    "name": "Making Coffee w/o milk",
+    "roles": {
+      "fit": {
+        "episodes": 1,
+        "days": [
+          "2022-10-20"
+        ],
+        "num_days": 1,
+        "windows": 8
+      },
+      "selection": {
+        "episodes": 2,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 2
+      },
+      "assessment": {
+        "episodes": 10,
+        "days": [
+          "2022-11-01",
+          "2022-11-02",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 4,
+        "windows": 13
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "2.2": {
+    "name": "Making Coffee after regular maintenance",
+    "roles": {
+      "fit": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "selection": {
+        "episodes": 1,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 8
+      },
+      "assessment": {
+        "episodes": 7,
+        "days": [
+          "2022-11-01",
+          "2022-11-02",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 4,
+        "windows": 56
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "2.3": {
+    "name": "Making tea using smart kettle",
+    "roles": {
+      "fit": {
+        "episodes": 3,
+        "days": [
+          "2022-10-20",
+          "2022-10-21"
+        ],
+        "num_days": 2,
+        "windows": 22
+      },
+      "selection": {
+        "episodes": 1,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 8
+      },
+      "assessment": {
+        "episodes": 4,
+        "days": [
+          "2022-11-01",
+          "2022-11-02",
+          "2022-11-04"
+        ],
+        "num_days": 3,
+        "windows": 30
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "3.0": {
+    "name": "Watching TV",
+    "roles": {
+      "fit": {
+        "episodes": 15,
+        "days": [
+          "2022-10-20",
+          "2022-10-21",
+          "2022-10-24",
+          "2022-10-25",
+          "2022-10-26"
+        ],
+        "num_days": 5,
+        "windows": 117
+      },
+      "selection": {
+        "episodes": 9,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 72
+      },
+      "assessment": {
+        "episodes": 14,
+        "days": [
+          "2022-11-01",
+          "2022-11-02",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 4,
+        "windows": 112
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "4.0": {
+    "name": "Dinning (food from fridge)",
+    "roles": {
+      "fit": {
+        "episodes": 6,
+        "days": [
+          "2022-10-21",
+          "2022-10-24",
+          "2022-10-25",
+          "2022-10-26"
+        ],
+        "num_days": 4,
+        "windows": 48
+      },
+      "selection": {
+        "episodes": 1,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 8
+      },
+      "assessment": {
+        "episodes": 4,
+        "days": [
+          "2022-11-01",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 3,
+        "windows": 32
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "4.2": {
+    "name": "Dinning (fresh from outside without using oven)",
+    "roles": {
+      "fit": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "4.3": {
+    "name": "Dinning (from the fridge without heating: e.g. fruit)",
+    "roles": {
+      "fit": {
+        "episodes": 9,
+        "days": [
+          "2022-10-20",
+          "2022-10-21",
+          "2022-10-25",
+          "2022-10-26"
+        ],
+        "num_days": 4,
+        "windows": 72
+      },
+      "selection": {
+        "episodes": 2,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 16
+      },
+      "assessment": {
+        "episodes": 9,
+        "days": [
+          "2022-11-01",
+          "2022-11-02",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 4,
+        "windows": 71
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "5.0": {
+    "name": "Taking shower in morning (if allowed)",
+    "roles": {
+      "fit": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "5.2": {
+    "name": "Taking shower post outdoor workout (if allowed)",
+    "roles": {
+      "fit": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "selection": {
+        "episodes": 1,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 8
+      },
+      "assessment": {
+        "episodes": 3,
+        "days": [
+          "2022-11-01",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 3,
+        "windows": 24
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "6.0": {
+    "name": "Play Music (Voice Assistant)",
+    "roles": {
+      "fit": {
+        "episodes": 7,
+        "days": [
+          "2022-10-20",
+          "2022-10-24",
+          "2022-10-25",
+          "2022-10-26"
+        ],
+        "num_days": 4,
+        "windows": 27
+      },
+      "selection": {
+        "episodes": 2,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 10
+      },
+      "assessment": {
+        "episodes": 6,
+        "days": [
+          "2022-11-01",
+          "2022-11-02",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 4,
+        "windows": 33
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "6.1": {
+    "name": "Weather Update (Voice Assistant)",
+    "roles": {
+      "fit": {
+        "episodes": 4,
+        "days": [
+          "2022-10-20",
+          "2022-10-24",
+          "2022-10-25"
+        ],
+        "num_days": 3,
+        "windows": 4
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "6.2": {
+    "name": "News Update (Voice Assistant)",
+    "roles": {
+      "fit": {
+        "episodes": 7,
+        "days": [
+          "2022-10-20",
+          "2022-10-24",
+          "2022-10-25",
+          "2022-10-26"
+        ],
+        "num_days": 4,
+        "windows": 34
+      },
+      "selection": {
+        "episodes": 2,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 12
+      },
+      "assessment": {
+        "episodes": 6,
+        "days": [
+          "2022-11-01",
+          "2022-11-02",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 4,
+        "windows": 37
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "6.3": {
+    "name": "Radio (Voice Assistant)",
+    "roles": {
+      "fit": {
+        "episodes": 6,
+        "days": [
+          "2022-10-20",
+          "2022-10-24",
+          "2022-10-25",
+          "2022-10-26"
+        ],
+        "num_days": 4,
+        "windows": 19
+      },
+      "selection": {
+        "episodes": 2,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 8
+      },
+      "assessment": {
+        "episodes": 6,
+        "days": [
+          "2022-11-01",
+          "2022-11-02",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 4,
+        "windows": 31
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "6.4": {
+    "name": "Update a shopping list (Voice Assistant)",
+    "roles": {
+      "fit": {
+        "episodes": 1,
+        "days": [
+          "2022-10-20"
+        ],
+        "num_days": 1,
+        "windows": 1
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "6.5": {
+    "name": "Get shopping list (Voice Assistant)",
+    "roles": {
+      "fit": {
+        "episodes": 6,
+        "days": [
+          "2022-10-20",
+          "2022-10-24"
+        ],
+        "num_days": 2,
+        "windows": 8
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "6.6": {
+    "name": "Turn on lights (Voice Assistant)",
+    "roles": {
+      "fit": {
+        "episodes": 3,
+        "days": [
+          "2022-10-20"
+        ],
+        "num_days": 1,
+        "windows": 3
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "6.7": {
+    "name": "Setup alarm (Voice Assistant)",
+    "roles": {
+      "fit": {
+        "episodes": 1,
+        "days": [
+          "2022-10-20"
+        ],
+        "num_days": 1,
+        "windows": 1
+      },
+      "selection": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      },
+      "assessment": {
+        "episodes": 0,
+        "days": [],
+        "num_days": 0,
+        "windows": 0
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "7.0": {
+    "name": "Going to bed",
+    "roles": {
+      "fit": {
+        "episodes": 2,
+        "days": [
+          "2022-10-24",
+          "2022-10-25"
+        ],
+        "num_days": 2,
+        "windows": 16
+      },
+      "selection": {
+        "episodes": 1,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 4
+      },
+      "assessment": {
+        "episodes": 2,
+        "days": [
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 2,
+        "windows": 8
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "7.1": {
+    "name": "Waking up from bed",
+    "roles": {
+      "fit": {
+        "episodes": 2,
+        "days": [
+          "2022-10-24",
+          "2022-10-25"
+        ],
+        "num_days": 2,
+        "windows": 10
+      },
+      "selection": {
+        "episodes": 1,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 2
+      },
+      "assessment": {
+        "episodes": 2,
+        "days": [
+          "2022-11-02",
+          "2022-11-04"
+        ],
+        "num_days": 2,
+        "windows": 8
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  },
+  "8.1": {
+    "name": "Using toilet for brush",
+    "roles": {
+      "fit": {
+        "episodes": 4,
+        "days": [
+          "2022-10-24",
+          "2022-10-26"
+        ],
+        "num_days": 2,
+        "windows": 23
+      },
+      "selection": {
+        "episodes": 2,
+        "days": [
+          "2022-10-28"
+        ],
+        "num_days": 1,
+        "windows": 16
+      },
+      "assessment": {
+        "episodes": 6,
+        "days": [
+          "2022-11-01",
+          "2022-11-03",
+          "2022-11-04"
+        ],
+        "num_days": 3,
+        "windows": 39
+      }
+    },
+    "support_pass": false,
+    "observability_reviewed": false
+  }
+}
