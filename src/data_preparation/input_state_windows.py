@@ -10,6 +10,10 @@ from pathlib import Path
 
 import numpy as np
 
+SOURCE_POLICY = "cu_source_input_state_v1"
+LEGACY_POLICY = "cu_input_state_v1"
+FEATURE_ORDER = ["value", "valid", "unknown", "unavailable", "missing", "invalid"]
+
 STATUS_CODES = {"valid": 0, "unknown": 1, "unavailable": 2, "missing": 3, "invalid": 4}
 
 
@@ -39,6 +43,59 @@ def safe_file(directory, name):
     return path
 
 
+EXPECTED_SOURCE_POLICY = {'policy_version': 'cu_source_input_state_v1', 'missing_tokens': ['', 'NULL'], 'status_codes': {'valid': 0, 'unknown': 1, 'unavailable': 2, 'missing': 3, 'invalid': 4}, 'feature_order': ['value', 'valid', 'unknown', 'unavailable', 'missing', 'invalid'], 'time_field': 'last_updated', 'timezone_conversion': None, 'resampling': 'causal_backward_asof', 'backward_fill': False, 'skip_nonvalid_records': False, 'expiry_seconds': None, 'duplicate_conflicts': 'block', 'nonvalid_placeholder': 0, 'binary_literals': {'on': 1, 'off': 0}, 'binary_numeric_values': [0, 1], 'continuous_values': 'finite numeric literals', 'whitespace_normalization': False, 'numeric_status_sentinel_interpretation': False, 'continuous_scaling': 'valid-training-grid minmax; constant denominator 1; no clipping'}
+
+
+def validate_source_metadata(manifest, meta, prep, policy, metadata_hashes):
+    require(policy == EXPECTED_SOURCE_POLICY, "Source policy semantics differ from supported contract")
+    require(manifest["source_policy_sha256"] == metadata_hashes["source_policy.json"],
+            "Source policy hash mismatch")
+    require(manifest["feature_order"] == meta["feature_order"] == FEATURE_ORDER,
+            "Six-feature order differs")
+
+    def source_hash(name):
+        values = [v for p, v in meta["source_hashes"].items() if Path(p).name == name]
+        require(len(values) == 1, "Missing or ambiguous source provenance: " + name)
+        value = values[0]
+        require(isinstance(value, str) and len(value) == 64
+                and all(c in "0123456789abcdef" for c in value), "Invalid source digest")
+        return value
+
+    require(manifest["registry_sha256"] == source_hash("CU_input_state_registry.json"),
+            "Registry provenance mismatch")
+    require(manifest["reference_input_manifest_sha256"] == source_hash("manifest.json"),
+            "Reference input provenance mismatch")
+    require(manifest["coverage_report_sha256"] == source_hash("training_fill_coverage_report.json"),
+            "Coverage audit provenance mismatch")
+    require(prep["source_size_mtime_recheck_passed"] is True, "Preparation source recheck failed")
+    require(prep["model_forwards"] == prep["optimizer_steps"] == 0,
+            "Unexpected model execution in preparation")
+    require(prep["training_bounds"] == [meta["training"]["first"], meta["training"]["last"]],
+            "Preparation training bounds differ")
+    for channel in meta["registry"]["channels"]:
+        name, kind = channel["name"], channel["type"]
+        d = meta["channel_diagnostics"][name]
+        counts = d["status_counts"]
+        require(set(counts) == set(STATUS_CODES) and
+                all(type(v) is int and v >= 0 for v in counts.values()) and
+                sum(counts.values()) == manifest["num_rows"], "Invalid channel status counts")
+        require(d["no_prior_record_rows"] >= 0 and d["explicit_missing_rows"] >= 0 and
+                counts["missing"] == d["no_prior_record_rows"] + d["explicit_missing_rows"],
+                "Missing-state decomposition differs")
+        scale = meta["scaling"][name]
+        require(scale["type"] == kind and scale["eligible_grid_rows"] == counts["valid"],
+                "Scaler eligibility differs")
+        if kind == "binary":
+            require(scale["transform"] == "identity", "Binary transform differs")
+        else:
+            lo, hi, den = scale["minimum"], scale["maximum"], scale["denominator"]
+            require(counts["valid"] > 0 and np.isfinite([lo, hi, den]).all() and hi >= lo,
+                    "Invalid training extrema")
+            require(scale["transform"] == "minmax" and scale["clip"] is False and
+                    scale["constant"] == (hi == lo) and den == (hi-lo if hi > lo else 1.),
+                    "Continuous scaling contract differs")
+
+
 class InputStateWindowDataset:
     """NumPy map-style dataset; no model, fitting, or materialized window files.
 
@@ -60,8 +117,9 @@ class InputStateWindowDataset:
         self.manifest_sha256 = hashlib.sha256(blob).hexdigest()
         self.manifest = m = json.loads(blob)
         require(m["status"] == "COMPLETE" and m["format"] == "hdeg_input_state_rows_v1"
-                and m["split"] == "train" and m["policy_version"] == "cu_input_state_v1",
-                "Expected complete training row artifacts for cu_input_state_v1")
+                and m["split"] == "train" and m["policy_version"] in [LEGACY_POLICY, SOURCE_POLICY],
+                "Expected complete training row artifacts with a supported policy")
+        self.policy_version = m["policy_version"]
         require(m["windows_constructed"] is False, "Expected row-level artifacts")
         self.devices = m["devices"]
         require(m["num_channels"] == len(self.devices) == len(set(self.devices)) == 23,
@@ -72,7 +130,10 @@ class InputStateWindowDataset:
                 "At least W+1 rows are needed for a training pair")
         self.metadata_hashes = {}
         loaded = {}
-        for name in ["transformation_metadata.json", "preparation_report.json"]:
+        metadata_names = ["transformation_metadata.json", "preparation_report.json"]
+        if self.policy_version == SOURCE_POLICY:
+            metadata_names.append("source_policy.json")
+        for name in metadata_names:
             entry = m["metadata"][name]
             require(entry["file"] == name, "Metadata filename mismatch")
             path = safe_file(self.directory, name)
@@ -89,8 +150,11 @@ class InputStateWindowDataset:
         require(all(d["policy_version"] == m["policy_version"] and d["split"] == "train"
                     for d in [meta, prep]), "Metadata split/policy mismatch")
         require(meta["source_hashes"] == prep["source_hashes"], "Metadata provenance mismatch")
-        require(m["preflight_report_sha256"] == meta["source_hashes"]["preflight_report"]
-                and m["registry_sha256"] == meta["source_hashes"]["registry"], "Manifest provenance mismatch")
+        if self.policy_version == LEGACY_POLICY:
+            require(m["preflight_report_sha256"] == meta["source_hashes"]["preflight_report"]
+                    and m["registry_sha256"] == meta["source_hashes"]["registry"], "Manifest provenance mismatch")
+        else:
+            validate_source_metadata(m, meta, prep, loaded["source_policy.json"], self.metadata_hashes)
         channels = meta["registry"]["channels"]
         require([c["name"] for c in channels] == self.devices, "Registry device order mismatch")
         require(meta["registry"]["status_order"] == list(STATUS_CODES), "Registry status order mismatch")
@@ -148,7 +212,7 @@ class InputStateWindowDataset:
         require(v.dtype == np.float32 and s.dtype == np.uint8 and t.dtype == np.dtype("datetime64[ns]"),
                 "Unexpected shard dtypes")
         require(v.shape == s.shape == (e["rows"], 23) and t.shape == (e["rows"],), "Shard shape mismatch")
-        require(np.isfinite(v).all() and np.isin(s, [0, 1, 2, 3]).all(), "Invalid shard values/status codes")
+        require(np.isfinite(v).all() and np.isin(s, [0, 1, 2, 3, 4] if self.policy_version == SOURCE_POLICY else [0, 1, 2, 3]).all(), "Invalid shard values/status codes")
         require(np.all(v[s != 0] == 0), "Non-valid placeholder must be zero")
         require(np.isin(v[:, self.binary][s[:, self.binary] == 0], [0, 1]).all(), "Invalid binary value")
         continuous = v[:, ~self.binary][s[:, ~self.binary] == 0]
