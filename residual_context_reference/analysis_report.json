@@ -1,0 +1,195 @@
+{
+  "status": "COMPLETE",
+  "protocol": "offline_residual_context_v1",
+  "gamma": 1.0,
+  "formula": "R=H+C-(H@W.T+b)",
+  "arithmetic": "float64 algebra on saved float32 H,C,weights; no quantization or fallback clamping",
+  "source_hashes": {
+    "upload/20261025T140311Z_2957f671-20261025T140448Z-1-001.zip": "adf13125d02a4878a9f22488804503fab34f54fdcaf26a9acf3712c2095dec38",
+    "upload/20261025T092612Z_31f0f16f-20261025T092656Z-1-001.zip": "a8bb46e2aca8e84cc475c763376ba83d62d9ff2ad0df9c41f91ca8716ddcb301",
+    "timing_selection_workspace/initialization.pt": "02d1734742dcc06454b9944d01cb2a710ddc6ba8cad212ed0f0b7dfb96120478"
+  },
+  "initialization_state_sha256": "0c7f472921f812602e05249c6c40dbd1c80c2647079736b46344e406aa8a63a5",
+  "model_forwards": 0,
+  "optimizer_steps": 0,
+  "aggregates": {
+    "eligible": {
+      "local": {
+        "count": 108,
+        "minimum": 0.0002924017252156012,
+        "median": 0.00035890137779436937,
+        "maximum": 0.0006350732927014799
+      },
+      "context": {
+        "count": 108,
+        "minimum": 2.695865355582205e-18,
+        "median": 1.5126831458489672e-17,
+        "maximum": 8.643055695743384e-10
+      },
+      "residual": {
+        "count": 108,
+        "minimum": 0.0005876469986042904,
+        "median": 0.000721267985202915,
+        "maximum": 0.0013250878671207528
+      },
+      "variance_retention": {
+        "count": 108,
+        "minimum": 2.009409825362602,
+        "median": 2.009656578148152,
+        "maximum": 2.086511718173635
+      },
+      "local_mean_square": {
+        "count": 116,
+        "minimum": 0.010658601444993348,
+        "median": 0.010782641446152338,
+        "maximum": 0.011300050211801109
+      },
+      "correction_mean_square": {
+        "count": 116,
+        "minimum": 9.894127419154559e-17,
+        "median": 0.0004228251164969449,
+        "maximum": 0.0007364375858308333
+      },
+      "twice_mean_cross_product": {
+        "count": 116,
+        "minimum": -9.663276526182956e-05,
+        "median": -5.9566977797864024e-05,
+        "maximum": 1.506407425102801e-10
+      },
+      "residual_mean_square": {
+        "count": 116,
+        "minimum": 0.010658601550372064,
+        "median": 0.011146753816115528,
+        "maximum": 0.011620898287549213
+      }
+    },
+    "noneligible": {
+      "local": {
+        "count": 114,
+        "minimum": 0.0,
+        "median": 0.0009400337993897155,
+        "maximum": 0.0010623284653838547
+      },
+      "context": {
+        "count": 114,
+        "minimum": 0.0,
+        "median": 0.0010263066230664013,
+        "maximum": 0.0011547354367497584
+      },
+      "residual": {
+        "count": 114,
+        "minimum": 0.0,
+        "median": 0.0009400338395163658,
+        "maximum": 0.0010623284799252631
+      },
+      "variance_retention": {
+        "count": 84,
+        "minimum": 0.9999999460480686,
+        "median": 1.0000000426863909,
+        "maximum": 1.000000094608933
+      },
+      "local_mean_square": {
+        "count": 120,
+        "minimum": 0.00920469210704137,
+        "median": 0.009290129707333667,
+        "maximum": 0.00946022651455195
+      },
+      "correction_mean_square": {
+        "count": 120,
+        "minimum": 1.191004320455453e-16,
+        "median": 1.3036304904342256e-16,
+        "maximum": 1.4650238577397306e-16
+      },
+      "twice_mean_cross_product": {
+        "count": 120,
+        "minimum": 1.0700464842784022e-10,
+        "median": 2.4516575488738143e-10,
+        "maximum": 3.6109412924936584e-10
+      },
+      "residual_mean_square": {
+        "count": 120,
+        "minimum": 0.00920469231749859,
+        "median": 0.009290130013322647,
+        "maximum": 0.009460226710330371
+      }
+    },
+    "all": {
+      "local": {
+        "count": 120,
+        "minimum": 0.0,
+        "median": 0.0007209289842441321,
+        "maximum": 0.0013063677832897034
+      },
+      "context": {
+        "count": 120,
+        "minimum": 0.0,
+        "median": 0.00037498646252864007,
+        "maximum": 0.0009756274403303707
+      },
+      "residual": {
+        "count": 120,
+        "minimum": 1.187390353652609e-33,
+        "median": 0.001033357994283857,
+        "maximum": 0.0015340766370780493
+      },
+      "variance_retention": {
+        "count": 116,
+        "minimum": 0.9999999825287889,
+        "median": 1.4335146336418603,
+        "maximum": 1.714026765885657
+      },
+      "local_mean_square": {
+        "count": 120,
+        "minimum": 0.00946022651455195,
+        "median": 0.010580213135103074,
+        "maximum": 0.010745253672575911
+      },
+      "correction_mean_square": {
+        "count": 120,
+        "minimum": 1.2824013530692994e-16,
+        "median": 0.00036456953107272727,
+        "maximum": 0.0005314717759645835
+      },
+      "twice_mean_cross_product": {
+        "count": 120,
+        "minimum": -7.478657796715092e-05,
+        "median": -5.145786751337435e-05,
+        "maximum": 1.957782920797941e-10
+      },
+      "residual_mean_square": {
+        "count": 120,
+        "minimum": 0.009460226710330371,
+        "median": 0.010892897774811016,
+        "maximum": 0.01120189793693217
+      }
+    }
+  },
+  "positive_local_pair_count": 12062,
+  "positive_local_pair_retention": {
+    "count": 12062,
+    "minimum": 1.5469501405413868,
+    "median": 2.009616385254931,
+    "maximum": 2.7639780409528854
+  },
+  "equal_local_pair_count": 6938,
+  "equal_local_pair_residual_mse": {
+    "count": 6938,
+    "minimum": 0.0,
+    "median": 1.3586408473958977e-18,
+    "maximum": 1.628307021044105e-16
+  },
+  "fallback_max_abs_correction": 5.6637085327215786e-08,
+  "common_context_operator": {
+    "minimum_singular_value": 0.022155612320510047,
+    "maximum_singular_value": 2.5432382602810257,
+    "applies_only": "Exact shared C across nodes: R_i-R_j=(I-W)(H_i-H_j); not a guarantee for varying contexts."
+  },
+  "controls": "PASS",
+  "limitations": [
+    "Same 60 development pairs; placements and device pairs are not independent samples.",
+    "Local/context/residual spaces have different scales; larger spread is not evidence of behavioral usefulness.",
+    "Gamma fixed at one; no coefficient selection, model implementation or training.",
+    "C is a saved float32 result while self-only projection is reconstructed in float64; residual fallback discrepancies are retained and reported.",
+    "Exact self-only fallback is an algebraic property when both computations match; an eventual implementation must enforce its own float32 contract."
+  ]
+}
