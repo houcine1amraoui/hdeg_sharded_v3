@@ -1,0 +1,667 @@
+{
+  "protocol": "source_timing_selection_v1",
+  "status": "FROZEN_SELECTION",
+  "manifest_sha256": "6f16d32d668d8c37ff58b6dcad8f503331f29e1b50700032be11f74a80944580",
+  "hierarchy_report_sha256": "50837f1b76ada2e326cb2648d1999adf15eb1c7a426f58bc586fb185d1294adc",
+  "initialization_file_sha256": "02d1734742dcc06454b9944d01cb2a710ddc6ba8cad212ed0f0b7dfb96120478",
+  "initialization_state_sha256": "0c7f472921f812602e05249c6c40dbd1c80c2647079736b46344e406aa8a63a5",
+  "offsets": [
+    1,
+    15,
+    30
+  ],
+  "selected_events": [
+    {
+      "event_row": 834488,
+      "channel_index": 6,
+      "channel": "binary_sensor.aqara_motion_sensor_pid_075_occupancy",
+      "family": "valid_binary",
+      "from_status": 0,
+      "to_status": 0,
+      "support_start": 834458,
+      "support_stop": 834518,
+      "normalized_delta": -1.0,
+      "timestamp": "2022-10-27T15:48:08.000000000",
+      "approximate_original_unit_delta": -1.0,
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 834487,
+          "first_timestamp": "2022-10-27T15:48:07.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 834473,
+          "first_timestamp": "2022-10-27T15:47:53.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 834458,
+          "first_timestamp": "2022-10-27T15:47:38.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 48185,
+      "channel_index": 8,
+      "channel": "binary_sensor.aqara_vibration_sensor_pid_077_vibration",
+      "family": "valid_binary",
+      "from_status": 0,
+      "to_status": 0,
+      "support_start": 48155,
+      "support_stop": 48215,
+      "normalized_delta": 1.0,
+      "timestamp": "2022-10-18T13:23:05.000000000",
+      "approximate_original_unit_delta": 1.0,
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 48184,
+          "first_timestamp": "2022-10-18T13:23:04.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 48170,
+          "first_timestamp": "2022-10-18T13:22:50.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 48155,
+          "first_timestamp": "2022-10-18T13:22:35.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 1515272,
+      "channel_index": 10,
+      "channel": "binary_sensor.aqara_vibration_sensor_pid_079_vibration",
+      "family": "valid_binary",
+      "from_status": 0,
+      "to_status": 0,
+      "support_start": 1515242,
+      "support_stop": 1515302,
+      "normalized_delta": -1.0,
+      "timestamp": "2022-11-04T12:54:32.000000000",
+      "approximate_original_unit_delta": -1.0,
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 1515271,
+          "first_timestamp": "2022-11-04T12:54:31.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 1515257,
+          "first_timestamp": "2022-11-04T12:54:17.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 1515242,
+          "first_timestamp": "2022-11-04T12:54:02.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 29535,
+      "channel_index": 7,
+      "channel": "binary_sensor.hue_motion_sensor_1_motion",
+      "family": "valid_binary",
+      "from_status": 0,
+      "to_status": 0,
+      "support_start": 29505,
+      "support_stop": 29565,
+      "normalized_delta": 1.0,
+      "timestamp": "2022-10-18T08:12:15.000000000",
+      "approximate_original_unit_delta": 1.0,
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 29534,
+          "first_timestamp": "2022-10-18T08:12:14.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 29520,
+          "first_timestamp": "2022-10-18T08:12:00.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 29505,
+          "first_timestamp": "2022-10-18T08:11:45.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 987885,
+      "channel_index": 11,
+      "channel": "sensor.aqara_temperature_and_humidity_pid_071_temperature",
+      "family": "valid_continuous",
+      "from_status": 0,
+      "to_status": 0,
+      "support_start": 987855,
+      "support_stop": 987915,
+      "normalized_delta": 0.008583679795265198,
+      "timestamp": "2022-10-29T10:24:45.000000000",
+      "approximate_original_unit_delta": 0.05999992176890375,
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 987884,
+          "first_timestamp": "2022-10-29T10:24:44.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 987870,
+          "first_timestamp": "2022-10-29T10:24:30.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 987855,
+          "first_timestamp": "2022-10-29T10:24:15.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 51834,
+      "channel_index": 12,
+      "channel": "sensor.aqara_temperature_and_humidity_pid_072_temperature",
+      "family": "valid_continuous",
+      "from_status": 0,
+      "to_status": 0,
+      "support_start": 51804,
+      "support_stop": 51864,
+      "normalized_delta": 0.08928573131561279,
+      "timestamp": "2022-10-18T14:23:54.000000000",
+      "approximate_original_unit_delta": 0.5000000953674317,
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 51833,
+          "first_timestamp": "2022-10-18T14:23:53.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 51819,
+          "first_timestamp": "2022-10-18T14:23:39.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 51804,
+          "first_timestamp": "2022-10-18T14:23:24.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 1617907,
+      "channel_index": 13,
+      "channel": "sensor.aqara_temperature_and_humidity_pid_073_temperature",
+      "family": "valid_continuous",
+      "from_status": 0,
+      "to_status": 0,
+      "support_start": 1617877,
+      "support_stop": 1617937,
+      "normalized_delta": 0.01696513593196869,
+      "timestamp": "2022-11-05T17:25:07.000000000",
+      "approximate_original_unit_delta": 0.18000009223818778,
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 1617906,
+          "first_timestamp": "2022-11-05T17:25:06.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 1617892,
+          "first_timestamp": "2022-11-05T17:24:52.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 1617877,
+          "first_timestamp": "2022-11-05T17:24:37.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 643919,
+      "channel_index": 14,
+      "channel": "sensor.aqara_temperature_and_humidity_pid_074_temperature",
+      "family": "valid_continuous",
+      "from_status": 0,
+      "to_status": 0,
+      "support_start": 643889,
+      "support_stop": 643949,
+      "normalized_delta": 0.040816329419612885,
+      "timestamp": "2022-10-25T10:51:59.000000000",
+      "approximate_original_unit_delta": 0.36000002548098564,
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 643918,
+          "first_timestamp": "2022-10-25T10:51:58.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 643904,
+          "first_timestamp": "2022-10-25T10:51:44.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 643889,
+          "first_timestamp": "2022-10-25T10:51:29.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 324712,
+      "channel_index": 7,
+      "channel": "binary_sensor.hue_motion_sensor_1_motion",
+      "family": "availability_loss",
+      "from_status": 0,
+      "to_status": 2,
+      "support_start": 324682,
+      "support_stop": 324742,
+      "timestamp": "2022-10-21T18:11:52.000000000",
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 324711,
+          "first_timestamp": "2022-10-21T18:11:51.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 324697,
+          "first_timestamp": "2022-10-21T18:11:37.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 324682,
+          "first_timestamp": "2022-10-21T18:11:22.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 914283,
+      "channel_index": 22,
+      "channel": "humidifier.mi_smart_antibacterial_humidifier",
+      "family": "availability_loss",
+      "from_status": 0,
+      "to_status": 2,
+      "support_start": 914253,
+      "support_stop": 914313,
+      "timestamp": "2022-10-28T13:58:03.000000000",
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 914282,
+          "first_timestamp": "2022-10-28T13:58:02.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 914268,
+          "first_timestamp": "2022-10-28T13:57:48.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 914253,
+          "first_timestamp": "2022-10-28T13:57:33.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 1613912,
+      "channel_index": 20,
+      "channel": "sensor.mi_air_purifier_3_3h_pm2_5",
+      "family": "availability_loss",
+      "from_status": 0,
+      "to_status": 2,
+      "support_start": 1613882,
+      "support_stop": 1613942,
+      "timestamp": "2022-11-05T16:18:32.000000000",
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 1613911,
+          "first_timestamp": "2022-11-05T16:18:31.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 1613897,
+          "first_timestamp": "2022-11-05T16:18:17.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 1613882,
+          "first_timestamp": "2022-11-05T16:18:02.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 1279581,
+      "channel_index": 15,
+      "channel": "switch.kasa_017",
+      "family": "availability_loss",
+      "from_status": 0,
+      "to_status": 2,
+      "support_start": 1279551,
+      "support_stop": 1279611,
+      "timestamp": "2022-11-01T19:26:21.000000000",
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 1279580,
+          "first_timestamp": "2022-11-01T19:26:20.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 1279566,
+          "first_timestamp": "2022-11-01T19:26:06.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 1279551,
+          "first_timestamp": "2022-11-01T19:25:51.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 325265,
+      "channel_index": 7,
+      "channel": "binary_sensor.hue_motion_sensor_1_motion",
+      "family": "availability_recovery",
+      "from_status": 2,
+      "to_status": 0,
+      "support_start": 325235,
+      "support_stop": 325295,
+      "timestamp": "2022-10-21T18:21:05.000000000",
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 325264,
+          "first_timestamp": "2022-10-21T18:21:04.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 325250,
+          "first_timestamp": "2022-10-21T18:20:50.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 325235,
+          "first_timestamp": "2022-10-21T18:20:35.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 1603936,
+      "channel_index": 20,
+      "channel": "sensor.mi_air_purifier_3_3h_pm2_5",
+      "family": "availability_recovery",
+      "from_status": 2,
+      "to_status": 0,
+      "support_start": 1603906,
+      "support_stop": 1603966,
+      "timestamp": "2022-11-05T13:32:16.000000000",
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 1603935,
+          "first_timestamp": "2022-11-05T13:32:15.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 1603921,
+          "first_timestamp": "2022-11-05T13:32:01.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 1603906,
+          "first_timestamp": "2022-11-05T13:31:46.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 1159717,
+      "channel_index": 15,
+      "channel": "switch.kasa_017",
+      "family": "availability_recovery",
+      "from_status": 2,
+      "to_status": 0,
+      "support_start": 1159687,
+      "support_stop": 1159747,
+      "timestamp": "2022-10-31T10:08:37.000000000",
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 1159716,
+          "first_timestamp": "2022-10-31T10:08:36.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 1159702,
+          "first_timestamp": "2022-10-31T10:08:22.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 1159687,
+          "first_timestamp": "2022-10-31T10:08:07.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 668984,
+      "channel_index": 16,
+      "channel": "switch.kasa_020",
+      "family": "availability_recovery",
+      "from_status": 2,
+      "to_status": 0,
+      "support_start": 668954,
+      "support_stop": 669014,
+      "timestamp": "2022-10-25T17:49:44.000000000",
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 668983,
+          "first_timestamp": "2022-10-25T17:49:43.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 668969,
+          "first_timestamp": "2022-10-25T17:49:29.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 668954,
+          "first_timestamp": "2022-10-25T17:49:14.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 37694,
+      "channel_index": 6,
+      "channel": "binary_sensor.aqara_motion_sensor_pid_075_occupancy",
+      "family": "first_observation",
+      "from_status": 3,
+      "to_status": 0,
+      "support_start": 37664,
+      "support_stop": 37724,
+      "timestamp": "2022-10-18T10:28:14.000000000",
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 37693,
+          "first_timestamp": "2022-10-18T10:28:13.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 37679,
+          "first_timestamp": "2022-10-18T10:27:59.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 37664,
+          "first_timestamp": "2022-10-18T10:27:44.000000000"
+        }
+      ]
+    },
+    {
+      "event_row": 37097,
+      "channel_index": 9,
+      "channel": "binary_sensor.vibration_sensor_pid_078_vibration",
+      "family": "first_observation",
+      "from_status": 3,
+      "to_status": 1,
+      "support_start": 37067,
+      "support_stop": 37127,
+      "timestamp": "2022-10-18T10:18:17.000000000",
+      "placements": [
+        {
+          "destination_offset": 1,
+          "index": 37096,
+          "first_timestamp": "2022-10-18T10:18:16.000000000"
+        },
+        {
+          "destination_offset": 15,
+          "index": 37082,
+          "first_timestamp": "2022-10-18T10:18:02.000000000"
+        },
+        {
+          "destination_offset": 30,
+          "index": 37067,
+          "first_timestamp": "2022-10-18T10:17:47.000000000"
+        }
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "type": "quiet",
+      "index": 26561
+    },
+    {
+      "type": "quiet",
+      "index": 544310
+    },
+    {
+      "type": "quiet",
+      "index": 1088619
+    },
+    {
+      "type": "quiet",
+      "index": 1632929
+    },
+    {
+      "type": "all_missing",
+      "index": 0
+    },
+    {
+      "type": "all_missing",
+      "index": 26520
+    }
+  ],
+  "total_pairs": 60,
+  "configuration": {
+    "project_root_dir": "/content/drive/MyDrive/02_research/hdeg/code",
+    "seed": 42,
+    "preprocessing": {
+      "dataset_folder": "data",
+      "merge_bre_cu": false,
+      "dataset_name": "CU",
+      "apply_filtering": true,
+      "apply_cleaning": true,
+      "downsample_freq": "1s",
+      "val_ratio": 0.1,
+      "window_size": 30,
+      "window_shard_size": 8192,
+      "actors_timelines": {
+        "actor1_t1_start": "2022-10-18 00:00:00",
+        "actor1_t1_end": "2022-11-07 23:59:59",
+        "actor2_start": "2022-11-08 00:00:00",
+        "actor2_end": "2022-11-10 23:59:59",
+        "actor1_t2_start": "2022-11-11 00:00:00",
+        "actor1_t2_end": "2022-11-17 23:59:59"
+      }
+    },
+    "hdeg": {
+      "dbrl": {
+        "batch_size": 32,
+        "hidden_dim": 64,
+        "embedding_dim": 64,
+        "gru_layers": 1,
+        "graph_top_k": 15,
+        "graph_self_loops": true,
+        "graph_symmetric": true,
+        "graph_heads": 1,
+        "max_batches": null,
+        "max_shards": null,
+        "overwrite": true
+      },
+      "bse": {
+        "batch_size": 32,
+        "num_heads": 1,
+        "max_shards": null,
+        "overwrite": true
+      },
+      "bil": {
+        "batch_size": 32,
+        "num_heads": 1,
+        "max_shards": null,
+        "overwrite": true
+      },
+      "ebrl": {
+        "batch_size": 32,
+        "max_shards": null,
+        "overwrite": true
+      },
+      "hbf": {
+        "checkpoint": "epoch_0001.pt",
+        "batch_size": 32,
+        "dynamics_hidden_dim": 128,
+        "max_shards": null,
+        "overwrite": true
+      },
+      "mbai": {
+        "batch_size": 32,
+        "max_shards": null,
+        "overwrite": true,
+        "fusion_weights": null
+      },
+      "e2e_training": {
+        "epochs": 1,
+        "lr": 0.0001
+      }
+    },
+    "models": [
+      {
+        "name": "dygraphad",
+        "enabled": true,
+        "params": {
+          "hidden_dim": 128,
+          "latent_dim": 32,
+          "num_layers": 1
+        }
+      }
+    ],
+    "v1_validation": {
+      "r2-pairs": 100000,
+      "r3-max": 50000,
+      "r1-reservoir": 100000,
+      "r1-chunk": 512,
+      "bootstrap-replicates": 1000
+    }
+  },
+  "selection_rule": "Fixed family order; least-selected channel then lexical tie; midpoint first then farthest from family selections; global support nonoverlap",
+  "family_order": [
+    "valid_binary",
+    "valid_continuous",
+    "availability_loss",
+    "availability_recovery",
+    "first_observation"
+  ],
+  "shortfalls": {
+    "valid_binary": 0,
+    "valid_continuous": 0,
+    "availability_loss": 0,
+    "availability_recovery": 0,
+    "first_observation": 0
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "status": "COMPLETE",
+  "feasibility": "FULL_QUOTAS",
+  "source_hashes": {
+    "/workspace/scratch/b3dba90d7cf0/timing_selection_workspace/source_hierarchy_compatibility_report.json": "50837f1b76ada2e326cb2648d1999adf15eb1c7a426f58bc586fb185d1294adc",
+    "/workspace/scratch/b3dba90d7cf0/timing_selection_workspace/initialization.pt": "02d1734742dcc06454b9944d01cb2a710ddc6ba8cad212ed0f0b7dfb96120478",
+    "/workspace/scratch/b3dba90d7cf0/deliverables/source_loader/src/data_preparation/input_state_windows.py": "3ef933517aa188e500892ee121c004af0d11ded8a04c4f4670f499b33bb6a876",
+    "/workspace/scratch/b3dba90d7cf0/deliverables/timing_selection/run_v3_timing_event_selection.py": "93650b3c143927d4694b86b240a04491287585b3e919c6258fa45906e63b1b8d",
+    "/workspace/scratch/b3dba90d7cf0/timing_selection_workspace/configs/config.yaml": "5400489efa51b5b07afe64a0c34b6df0c6a4f0267e240fa1e1e4796fbf41de56"
+  },
+  "input_manifest_sha256": "6f16d32d668d8c37ff58b6dcad8f503331f29e1b50700032be11f74a80944580",
+  "training_rows": 1632960,
+  "census": {
+    "valid_binary": {
+      "source_channel_transitions": 5154,
+      "excluded_other_transition_in_support": 4285,
+      "eligible_isolated_events": 717,
+      "excluded_simultaneous_channels": 152
+    },
+    "valid_continuous": {
+      "source_channel_transitions": 10325,
+      "excluded_other_transition_in_support": 7648,
+      "eligible_isolated_events": 2597,
+      "excluded_simultaneous_channels": 80
+    },
+    "availability_loss": {
+      "source_channel_transitions": 1631,
+      "excluded_other_transition_in_support": 1407,
+      "eligible_isolated_events": 88,
+      "excluded_simultaneous_channels": 136
+    },
+    "availability_recovery": {
+      "source_channel_transitions": 1592,
+      "excluded_other_transition_in_support": 1422,
+      "excluded_simultaneous_channels": 84,
+      "eligible_isolated_events": 86
+    },
+    "first_observation": {
+      "source_channel_transitions": 23,
+      "excluded_other_transition_in_support": 16,
+      "eligible_isolated_events": 3,
+      "excluded_simultaneous_channels": 4
+    }
+  },
+  "excluded_out_of_scope_transitions": {
+    "explicit_missing_related": 4,
+    "unknown_related": 589
+  },
+  "selection": {
+    "valid_binary": {
+      "quota": 4,
+      "selected": 4,
+      "eligible_before_nonoverlap": 717,
+      "selected_by_channel": {
+        "binary_sensor.aqara_motion_sensor_pid_075_occupancy": 1,
+        "binary_sensor.aqara_vibration_sensor_pid_077_vibration": 1,
+        "binary_sensor.aqara_vibration_sensor_pid_079_vibration": 1,
+        "binary_sensor.hue_motion_sensor_1_motion": 1
+      }
+    },
+    "valid_continuous": {
+      "quota": 4,
+      "selected": 4,
+      "eligible_before_nonoverlap": 2597,
+      "selected_by_channel": {
+        "sensor.aqara_temperature_and_humidity_pid_071_temperature": 1,
+        "sensor.aqara_temperature_and_humidity_pid_072_temperature": 1,
+        "sensor.aqara_temperature_and_humidity_pid_073_temperature": 1,
+        "sensor.aqara_temperature_and_humidity_pid_074_temperature": 1
+      }
+    },
+    "availability_loss": {
+      "quota": 4,
+      "selected": 4,
+      "eligible_before_nonoverlap": 88,
+      "selected_by_channel": {
+        "binary_sensor.hue_motion_sensor_1_motion": 1,
+        "humidifier.mi_smart_antibacterial_humidifier": 1,
+        "sensor.mi_air_purifier_3_3h_pm2_5": 1,
+        "switch.kasa_017": 1
+      }
+    },
+    "availability_recovery": {
+      "quota": 4,
+      "selected": 4,
+      "eligible_before_nonoverlap": 86,
+      "selected_by_channel": {
+        "binary_sensor.hue_motion_sensor_1_motion": 1,
+        "sensor.mi_air_purifier_3_3h_pm2_5": 1,
+        "switch.kasa_017": 1,
+        "switch.kasa_020": 1
+      }
+    },
+    "first_observation": {
+      "quota": 2,
+      "selected": 2,
+      "eligible_before_nonoverlap": 3,
+      "selected_by_channel": {
+        "binary_sensor.aqara_motion_sensor_pid_075_occupancy": 1,
+        "binary_sensor.vibration_sensor_pid_078_vibration": 1
+      }
+    }
+  },
+  "controls": {
+    "quiet": {
+      "quota": 4,
+      "eligible_pairs": 1224172,
+      "selected": 4,
+      "shortfall": 0
+    },
+    "all_missing": {
+      "quota": 2,
+      "eligible_pairs": 26521,
+      "selected": 2,
+      "shortfall": 0
+    }
+  },
+  "total_pairs": 60,
+  "model_forwards": 0,
+  "optimizer_steps": 0,
+  "source_files_unchanged": true,
+  "placement_checks_passed": true,
+  "selection_manifest_sha256": "82c4588afdd5c436e0a50bd7ea402e97428aeca2c7f23e29b5f876b6bec686ef",
+  "limitations": [
+    "Selection is input-only; isolation uses prepared grid changes, not raw record arrival.",
+    "No magnitude matching between different events or causal behavior interpretation.",
+    "First-observation controls are not user activities.",
+    "Nonoverlap holds between event supports and controls; placements of each event deliberately overlap.",
+    "Unknown-related and later explicit-missing transitions are counted but not selected.",
+    "Shortfalls are not backfilled from other families; frozen selection is not approval to train."
+  ]
+}
